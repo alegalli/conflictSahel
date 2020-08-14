@@ -11,6 +11,11 @@ confm.rename(columns={'country':'adm0_name',
                     'admin1':'adm1_name',
                     'admin2':'adm2_name',
                     'admin3':'adm3_name',
+                    'actor1' : 'actor1',
+                    'inter1' : 'inter1',
+                    'actor2' : 'actor2',
+                    'inter2' : 'inter2',
+                    'interaction' : 'interaction',
                     'event_date':'date',
                     'year':'reference_year'}, inplace=True)
 confb.rename(columns={'country':'adm0_name',
@@ -26,11 +31,11 @@ confn.rename(columns={'country':'adm0_name',
                     'event_date':'date',
                     'year':'reference_year'}, inplace=True)
 confm = confm[['reference_year','date','adm0_name','adm1_name','adm2_name','adm3_name',
-        'event_type','sub_event_type','fatalities']]
+        'event_type','sub_event_type','actor1','inter1','actor2','inter2','interaction','fatalities']]
 confb = confb[['reference_year','date','adm0_name','adm1_name','adm2_name','adm3_name',
-        'event_type','sub_event_type','fatalities']]
+        'event_type','sub_event_type','actor1','inter1','actor2','inter2','interaction','fatalities']]
 confn = confn[['reference_year','date','adm0_name','adm1_name','adm2_name','adm3_name',
-        'event_type','sub_event_type','fatalities']]
+        'event_type','sub_event_type','actor1','inter1','actor2','inter2','interaction','fatalities']]
 
 # Extract reference_year
 confm = confm[confm.reference_year.isin([2014,2015,2016,2017,2018,2019])]
