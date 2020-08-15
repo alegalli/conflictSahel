@@ -2,6 +2,9 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# DONE: conflict_numb.csv aggregated data per reference_year, adm2_name
+
+
 confm = pd.read_csv('../data/Conflict Data/Conflict Data for Mali.csv')
 confb = pd.read_csv('../data/Conflict Data/Conflict Data for Burkina Faso.csv')
 confn = pd.read_csv('../data/Conflict Data/Conflict Data for Niger.csv')
@@ -10,7 +13,6 @@ confn = pd.read_csv('../data/Conflict Data/Conflict Data for Niger.csv')
 confm.rename(columns={'country':'adm0_name',
                     'admin1':'adm1_name',
                     'admin2':'adm2_name',
-                    'admin3':'adm3_name',
                     'actor1' : 'actor1',
                     'inter1' : 'inter1',
                     'actor2' : 'actor2',
@@ -21,13 +23,21 @@ confm.rename(columns={'country':'adm0_name',
 confb.rename(columns={'country':'adm0_name',
                     'admin1':'adm1_name',
                     'admin2':'adm2_name',
-                    'admin3':'adm3_name',
+                    'actor1' : 'actor1',
+                    'inter1' : 'inter1',
+                    'actor2' : 'actor2',
+                    'inter2' : 'inter2',
+                    'interaction' : 'interaction',
                     'event_date':'date',
                     'year':'reference_year'}, inplace=True)
 confn.rename(columns={'country':'adm0_name',
                     'admin1':'adm1_name',
                     'admin2':'adm2_name',
-                    'admin3':'adm3_name',
+                    'actor1' : 'actor1',
+                    'inter1' : 'inter1',
+                    'actor2' : 'actor2',
+                    'inter2' : 'inter2',
+                    'interaction' : 'interaction',
                     'event_date':'date',
                     'year':'reference_year'}, inplace=True)
 confm = confm[['reference_year','date','adm0_name','adm1_name','adm2_name','adm3_name',
@@ -71,15 +81,14 @@ confn = confn.reset_index(drop=True)
 
 
 
-
 # Total conflicts
 conf = confm.append(confb.append(confn)).reset_index()
 
 conf['fatalities'] = conf['fatalities'].astype(str).astype(int)
 
 
-
-
+# Data explored in Jupyter Notebook
+"""
 # Plot number of conflicts per year per adm2_name
 ncy = pd.DataFrame(columns=['reference_year','adm2_name','conflicts','fatalities'])
 for year in conf['reference_year'].unique():
@@ -111,8 +120,10 @@ g = ncy[ncy.adm2_name.isin(['Mopti'])].plot(x='reference_year',y=['conflicts','f
 g.xaxis.label.set_visible(False)
 plt.show()
 
-
+"""
 
 
 # Export data
+# Data exported will miss all the adm2 where no conflict has appened in that reference_year
+# Consequently all this missing adm2 will have 0 fatalities
 ncy.to_csv('../data/Conflict Data/conflict_numb.csv',index=False)
