@@ -13,6 +13,7 @@ confn = pd.read_csv('../data/Conflict Data/Conflict Data for Niger.csv')
 confm.rename(columns={'country':'adm0_name',
                     'admin1':'adm1_name',
                     'admin2':'adm2_name',
+                    'admin3':'adm3_name',
                     'actor1' : 'actor1',
                     'inter1' : 'inter1',
                     'actor2' : 'actor2',
@@ -23,6 +24,7 @@ confm.rename(columns={'country':'adm0_name',
 confb.rename(columns={'country':'adm0_name',
                     'admin1':'adm1_name',
                     'admin2':'adm2_name',
+                    'admin3':'adm3_name',
                     'actor1' : 'actor1',
                     'inter1' : 'inter1',
                     'actor2' : 'actor2',
@@ -33,6 +35,7 @@ confb.rename(columns={'country':'adm0_name',
 confn.rename(columns={'country':'adm0_name',
                     'admin1':'adm1_name',
                     'admin2':'adm2_name',
+                    'admin3':'adm3_name',
                     'actor1' : 'actor1',
                     'inter1' : 'inter1',
                     'actor2' : 'actor2',
@@ -87,8 +90,7 @@ conf = confm.append(confb.append(confn)).reset_index()
 conf['fatalities'] = conf['fatalities'].astype(str).astype(int)
 
 
-# Data explored in Jupyter Notebook
-"""
+
 # Plot number of conflicts per year per adm2_name
 ncy = pd.DataFrame(columns=['reference_year','adm2_name','conflicts','fatalities'])
 for year in conf['reference_year'].unique():
@@ -113,17 +115,23 @@ for index, row in c.iterrows():
 for index, row in f.iterrows():
     ncy.loc[(ncy.reference_year == row.reference_year) & (ncy.adm2_name == row.adm2_name), 'fatalities'] = row['fatalities']
 
-
+# Data explored in Jupyter Notebook
+"""
 # Plot number of conflicts and fatalities in Gao per reference_year
 plt.style.use('fivethirtyeight')
 g = ncy[ncy.adm2_name.isin(['Mopti'])].plot(x='reference_year',y=['conflicts','fatalities'],figsize=(10,7))
 g.xaxis.label.set_visible(False)
 plt.show()
-
 """
+
+
 
 
 # Export data
 # Data exported will miss all the adm2 where no conflict has appened in that reference_year
 # Consequently all this missing adm2 will have 0 fatalities
 ncy.to_csv('../data/Conflict Data/conflict_numb.csv',index=False)
+
+
+# conflict_tot.csv
+conf.to_csv('../data/Conflict Data/conflict_tot.csv',index=False)
