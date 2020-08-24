@@ -75,7 +75,7 @@ for i in confn.index:
     if confn.loc[i,'adm3_name']=='Abala':
         confn.at[i,'adm2_name']='Abala'
 
-confm = confm[confm.adm2_name.isin(['Bankass','Koro','Douentza','Djenne','Bandiagara','Tenenkou','Mopti','Youwarou', 'Gourma-Rharous','Dire','Niafunke', 'Gao','Ansongo','Menaka','Bourem'])]
+confm = confm[confm.adm2_name.isin(['Bankass','Koro','Douentza','Djenne','Bandiagara','Tenenkou','Mopti','Youwarou', 'Goundam','Gourma-Rharous','Dire','Niafunke','Tombouctou', 'Gao','Ansongo','Menaka','Bourem'])]
 confb = confb[confb.adm2_name.isin(['Yatenga','Loroum', 'Yagha','Seno','Soum','Oudalan', 'Komonjdjari'])]
 confn = confn[confn.adm2_name.isin(['Tillia', 'Banibangou','Filingue','Ouallam','Say','Tera','Torodi','Abala','Ayerou'])]#removed: Tassara, Gotheye, Bankilare, Balleyara Because are not in the database, Tillaberi,Tahoua because in lean these data are mess
 confm = confm.reset_index(drop=True)
