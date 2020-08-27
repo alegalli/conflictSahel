@@ -62,13 +62,21 @@ gen16['reference_year'] = gen16.date.str.split('-',expand=True)[0]
 gen16['reference_year'] = gen16['reference_year'].astype(int)
 gen16 = gen16.sort_values(by=['adm1_name','adm2_name']).reset_index(drop=True)
 
-dec16 = dec16[['Snapshot Date','Admin 0','Admin 1','Admin 2','Total No# of IDPs Ind#']]
+dec16 = dec16[['Snapshot Date','Admin 0','Admin 1','Admin 2','Admin 3','Total No# of IDPs Ind#']]
+adm3_menaka = ['Anderamboukane','Inekar','Tidermene']
 dec16 = dec16[dec16['Admin 1'].isin(['Gao','Mopti','Tombouctou'])]
 dec16 = dec16.reset_index(drop=True)
 dec16.rename(columns={'Snapshot Date' : 'date',
                       'Admin 0' : 'adm0_name',
                       'Admin 1' : 'adm1_name',
                       'Admin 2' : 'adm2_name'}, inplace=True)
+for adm3 in adm3_menaka:
+    dec16.loc[dec16['Admin 3']==adm3,'adm1_name'] = 'Not Gao'
+    # Not summed, no problem (they are not too much)
+    #adm3_displaced = dec16[(dec16['Admin 3']==adm3),'Total No# of IDPs Ind#']
+    #dec16.loc[(dec16['Admin 3']=='Menaka'),'Total No# of IDPs Ind#'] += adm3_displaced
+dec16 = dec16[dec16['adm1_name'].isin(['Gao','Mopti','Tombouctou'])]
+dec16 = dec16[['date','adm0_name','adm1_name','adm2_name','Total No# of IDPs Ind#']]
 dec16['date'] = dec16['date'].astype(str)
 #Create column reference_year
 dec16['reference_year'] = dec16.date.str.split('-',expand=True)[0]
@@ -76,6 +84,7 @@ dec16['reference_year'] = dec16['reference_year'].astype(int)
 dec16 = dec16.sort_values(by=['adm1_name','adm2_name']).reset_index(drop=True)
 
 dec17 = dec17[['Snapshot Date','Admin 0','Admin 1','Admin 2','Total No# of IDPs Ind#']]
+dec17.loc[:,'Admin 0'] = 'Mali'
 dec17 = dec17[dec17['Admin 1'].isin(['Gao','Mopti','Tombouctou'])]
 dec17 = dec17.reset_index(drop=True)
 dec17.rename(columns={'Snapshot Date' : 'date',
@@ -90,6 +99,7 @@ dec17['reference_year'] = dec17['reference_year'].astype(int)
 dec17 = dec17.sort_values(by=['adm1_name','adm2_name']).reset_index(drop=True)
 
 dec18 = dec18[['Snapshot Date','Admin 0','Admin 1','Admin 2','Total No# of IDPs Ind#']]
+dec18.loc[:,'Admin 0'] = 'Mali'
 dec18 = dec18[dec18['Admin 1'].isin(['Gao','Mopti','Tombouctou'])]
 dec18 = dec18.reset_index(drop=True)
 dec18.rename(columns={'Snapshot Date' : 'date',
