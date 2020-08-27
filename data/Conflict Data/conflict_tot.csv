@@ -3012,161 +3012,170 @@ index,reference_year,date,adm0_name,adm1_name,adm2_name,adm3_name,event_type,sub
 230,2020.0,2019-05-02,Niger,Tillaberi,Ouallam,Bani Bangou,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,10.0
 231,2020.0,2019-04-26,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
 232,2020.0,2019-04-25,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Air/drone strike,Military Forces of Burkina Faso (2015-),8.0,Civilians (Niger),7.0,78.0,0.0
-233,2020.0,2019-04-19,Niger,Tahoua,Tillia,Tillia,Battles,Armed clash,MSA: Movement for Azawad Salvation,3.0,Islamic State (Greater Sahara),2.0,23.0,0.0
-234,2020.0,2019-04-17,Niger,Tillaberi,Filingue,Filingue,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-235,2020.0,2019-04-17,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-236,2020.0,2019-04-12,Niger,Tillaberi,Say,Torodi,Violence against civilians,Abduction/forced disappearance,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,14.0
-237,2020.0,2019-04-11,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-238,2019.0,2019-03-31,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Air/drone strike,Military Forces of Burkina Faso (2015-),8.0,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,28.0,1.0
-239,2019.0,2019-03-31,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Air/drone strike,Military Forces of Burkina Faso (2015-),8.0,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,28.0,0.0
+233,2020.0,2019-04-20,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
+234,2020.0,2019-04-19,Niger,Tahoua,Tillia,Tillia,Battles,Armed clash,MSA: Movement for Azawad Salvation,3.0,Islamic State (Greater Sahara),2.0,23.0,0.0
+235,2020.0,2019-04-17,Niger,Tillaberi,Filingue,Filingue,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+236,2020.0,2019-04-17,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+237,2020.0,2019-04-12,Niger,Tillaberi,Say,Torodi,Violence against civilians,Abduction/forced disappearance,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,14.0
+238,2020.0,2019-04-11,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+239,2019.0,2019-03-31,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Air/drone strike,Military Forces of Burkina Faso (2015-),8.0,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,28.0,1.0
 240,2019.0,2019-03-31,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Air/drone strike,Military Forces of Burkina Faso (2015-),8.0,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,28.0,0.0
-241,2019.0,2019-03-17,Niger,Tillaberi,Tillaberi,Ayorou,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,88.0
-242,2019.0,2019-03-16,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-243,2019.0,2019-03-06,Niger,Tillaberi,Say,Torodi,Violence against civilians,Abduction/forced disappearance,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-244,2019.0,2019-03-01,Niger,Tillaberi,Tillaberi,Ayorou,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-245,2019.0,2019-03-01,Niger,Tillaberi,Tillaberi,Ayorou,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
-246,2019.0,2019-02-22,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-247,2019.0,2019-02-18,Niger,Tillaberi,Tera,Tera,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,1.0
-248,2019.0,2019-02-16,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,9.0
-249,2019.0,2019-02-14,Niger,Tillaberi,Tillaberi,Tillaberi,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,0.0
-250,2019.0,2019-02-02,Niger,Tillaberi,Say,Torodi,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-251,2019.0,2019-01-31,Niger,Tillaberi,Tillaberi,Ayorou,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,5.0
-252,2019.0,2019-01-28,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,1.0
-253,2019.0,2019-01-27,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-254,2019.0,2019-01-25,Niger,Tillaberi,Tillaberi,Tillaberi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Police Forces of Niger (2011-),1.0,12.0,30.0
-255,2019.0,2019-01-12,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Remote explosive/landmine/IED,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,5.0
-256,2019.0,2019-01-12,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-257,2019.0,2019-01-11,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Tin Gara Communal Militia (Niger),4.0,Tin Gara Communal Militia (Niger),4.0,44.0,6.0
-258,2019.0,2019-01-10,Niger,Tillaberi,Banibangou,Bani Bangou,Strategic developments,Change to group/activity,Islamic State (Greater Sahara),2.0,,0.0,20.0,0.0
-259,2019.0,2019-01-10,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Abduction/forced disappearance,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,1.0
-260,2019.0,2019-01-09,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,2.0
-261,2019.0,2019-01-09,Niger,Tillaberi,Filingue,Abala,Strategic developments,Looting/property destruction,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,19.0
-262,2019.0,2019-01-09,Niger,Tillaberi,Banibangou,Bani Bangou,Strategic developments,Looting/property destruction,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,3.0
-263,2019.0,2019-01-07,Niger,Tillaberi,Say,Torodi,Strategic developments,Change to group/activity,Police Forces of Niger (2011-),1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
-264,2019.0,2019-01-07,Niger,Tillaberi,Tillaberi,Anzourou,Violence against civilians,Abduction/forced disappearance,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,1.0
-265,2019.0,2019-01-06,Niger,Tillaberi,Tillaberi,Anzourou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,17.0
-266,2019.0,2019-01-04,Niger,Tillaberi,Banibangou,Bani Bangou,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,1.0
-267,2019.0,2019-01-03,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) National Guard,1.0,12.0,8.0
-268,2019.0,2019-01-01,Niger,Tillaberi,Say,Torodi,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-269,2019.0,2018-12-31,Niger,Tillaberi,Ouallam,Tondikiwindi,Strategic developments,Change to group/activity,Islamic State (Greater Sahara),2.0,,0.0,20.0,4.0
-270,2019.0,2018-12-30,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-271,2019.0,2018-12-27,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Military Forces of France (2017-),8.0,Islamic State (Greater Sahara),2.0,28.0,0.0
-272,2019.0,2018-12-27,Niger,Tillaberi,Banibangou,Bani Bangou,Strategic developments,Other,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-273,2019.0,2018-12-27,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,Military Forces of Niger (2011-),1.0,Civilians (Niger),7.0,17.0,0.0
-274,2019.0,2018-12-26,Niger,Tahoua,Tillia,Tillia,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-275,2019.0,2018-12-24,Niger,Tahoua,Tillia,Tillia,Battles,Armed clash,Dawsahak Ethnic Militia (Niger),4.0,Fulani Ethnic Militia (Niger),4.0,44.0,0.0
-276,2019.0,2018-12-19,Niger,Tillaberi,Filingue,Abala,Battles,Armed clash,MSA: Movement for Azawad Salvation,3.0,Islamic State (Greater Sahara),2.0,23.0,10.0
-277,2019.0,2018-12-17,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
-278,2019.0,2018-12-16,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,12.0
-279,2019.0,2018-12-16,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,1.0
-280,2019.0,2018-12-15,Niger,Tillaberi,Say,Torodi,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,1.0
-281,2019.0,2018-12-07,Niger,Tillaberi,Tillaberi,Sinder,Strategic developments,Change to group/activity,Government of Niger (2011-),1.0,,0.0,10.0,2.0
-282,2019.0,2018-12-03,Niger,Tillaberi,Ouallam,Tondikiwindi,Strategic developments,Arrests,Military Forces of Niger (2011-) Gendarmerie,1.0,Islamic State (Greater Sahara),2.0,12.0,9.0
-283,2019.0,2018-11-30,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,JNIM: Group for Support of Islam and Muslims,2.0,Police Forces of Niger (2011-),1.0,12.0,4.0
-284,2019.0,2018-11-30,Niger,Tillaberi,Say,Say,Strategic developments,Change to group/activity,Government of Niger (2011-),1.0,,0.0,10.0,11.0
-285,2019.0,2018-11-30,Niger,Tillaberi,Tera,Tera,Strategic developments,Change to group/activity,Government of Niger (2011-),1.0,,0.0,10.0,1.0
-286,2019.0,2018-11-21,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,5.0
-287,2019.0,2018-11-17,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,3.0
-288,2019.0,2018-11-08,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Military Forces of France (2017-),8.0,Islamic State (Greater Sahara),2.0,28.0,10.0
-289,2019.0,2018-11-07,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,Civilians (Niger),7.0,37.0,0.0
-290,2019.0,2018-11-06,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,8.0
-291,2019.0,2018-11-05,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Tuareg Ethnic Militia (Mali),4.0,Civilians (Niger),7.0,47.0,2.0
-292,2019.0,2018-11-01,Niger,Tillaberi,Say,Torodi,Strategic developments,Looting/property destruction,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
-293,2019.0,2018-10-30,Niger,Tillaberi,Filingue,Abala,Strategic developments,Looting/property destruction,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,2.0
-294,2019.0,2018-10-27,Niger,Tillaberi,Say,Torodi,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,6.0
-295,2019.0,2018-10-24,Niger,Tillaberi,Tillaberi,Ayorou,Strategic developments,Change to group/activity,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
-296,2019.0,2018-10-22,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,Civilians (Niger),7.0,37.0,0.0
-297,2019.0,2018-10-18,Niger,Tillaberi,Say,Torodi,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,,0.0,20.0,0.0
-298,2019.0,2018-10-18,Niger,Tillaberi,Say,Torodi,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,7.0
-299,2019.0,2018-10-17,Niger,Tillaberi,Say,Torodi,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-300,2019.0,2018-10-05,Niger,Tillaberi,Filingue,Abala,Battles,Armed clash,MSA: Movement for Azawad Salvation,3.0,Fulani Ethnic Militia (Niger),4.0,34.0,4.0
-301,2019.0,2018-09-29,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Military Forces of Niger (2011-) Gendarmerie,1.0,Civilians (Niger),7.0,17.0,2.0
-302,2019.0,2018-09-27,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,16.0
-303,2019.0,2018-09-25,Niger,Tillaberi,Tillaberi,Anzourou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+241,2019.0,2019-03-31,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Air/drone strike,Military Forces of Burkina Faso (2015-),8.0,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,28.0,0.0
+242,2019.0,2019-03-17,Niger,Tillaberi,Tillaberi,Ayorou,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,88.0
+243,2019.0,2019-03-16,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+244,2019.0,2019-03-06,Niger,Tillaberi,Say,Torodi,Violence against civilians,Abduction/forced disappearance,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+245,2019.0,2019-03-01,Niger,Tillaberi,Tillaberi,Ayorou,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+246,2019.0,2019-03-01,Niger,Tillaberi,Tillaberi,Ayorou,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
+247,2019.0,2019-02-22,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+248,2019.0,2019-02-18,Niger,Tillaberi,Tera,Tera,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,1.0
+249,2019.0,2019-02-16,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,9.0
+250,2019.0,2019-02-14,Niger,Tillaberi,Tillaberi,Tillaberi,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,0.0
+251,2019.0,2019-02-02,Niger,Tillaberi,Say,Torodi,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+252,2019.0,2019-01-31,Niger,Tillaberi,Tillaberi,Ayorou,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,5.0
+253,2019.0,2019-01-28,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,1.0
+254,2019.0,2019-01-27,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+255,2019.0,2019-01-25,Niger,Tillaberi,Tillaberi,Tillaberi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Police Forces of Niger (2011-),1.0,12.0,30.0
+256,2019.0,2019-01-12,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Remote explosive/landmine/IED,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,5.0
+257,2019.0,2019-01-12,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+258,2019.0,2019-01-11,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Tin Gara Communal Militia (Niger),4.0,Tin Gara Communal Militia (Niger),4.0,44.0,6.0
+259,2019.0,2019-01-10,Niger,Tillaberi,Banibangou,Bani Bangou,Strategic developments,Change to group/activity,Islamic State (Greater Sahara),2.0,,0.0,20.0,0.0
+260,2019.0,2019-01-10,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Abduction/forced disappearance,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,1.0
+261,2019.0,2019-01-09,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,2.0
+262,2019.0,2019-01-09,Niger,Tillaberi,Filingue,Abala,Strategic developments,Looting/property destruction,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,19.0
+263,2019.0,2019-01-09,Niger,Tillaberi,Banibangou,Bani Bangou,Strategic developments,Looting/property destruction,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,3.0
+264,2019.0,2019-01-07,Niger,Tillaberi,Say,Torodi,Strategic developments,Change to group/activity,Police Forces of Niger (2011-),1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
+265,2019.0,2019-01-07,Niger,Tillaberi,Tillaberi,Anzourou,Violence against civilians,Abduction/forced disappearance,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,1.0
+266,2019.0,2019-01-06,Niger,Tillaberi,Tillaberi,Anzourou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,17.0
+267,2019.0,2019-01-04,Niger,Tillaberi,Banibangou,Bani Bangou,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,1.0
+268,2019.0,2019-01-03,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,JNIM: Group for Support of Islam and Muslims and/or Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) National Guard,1.0,12.0,8.0
+269,2019.0,2019-01-01,Niger,Tillaberi,Say,Torodi,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+270,2019.0,2018-12-31,Niger,Tillaberi,Ouallam,Tondikiwindi,Strategic developments,Change to group/activity,Islamic State (Greater Sahara),2.0,,0.0,20.0,4.0
+271,2019.0,2018-12-30,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+272,2019.0,2018-12-27,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Military Forces of France (2017-),8.0,Islamic State (Greater Sahara),2.0,28.0,0.0
+273,2019.0,2018-12-27,Niger,Tillaberi,Banibangou,Bani Bangou,Strategic developments,Other,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+274,2019.0,2018-12-27,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,Military Forces of Niger (2011-),1.0,Civilians (Niger),7.0,17.0,0.0
+275,2019.0,2018-12-26,Niger,Tahoua,Tillia,Tillia,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+276,2019.0,2018-12-24,Niger,Tahoua,Tillia,Tillia,Battles,Armed clash,Dawsahak Ethnic Militia (Niger),4.0,Fulani Ethnic Militia (Niger),4.0,44.0,0.0
+277,2019.0,2018-12-19,Niger,Tillaberi,Filingue,Abala,Battles,Armed clash,MSA: Movement for Azawad Salvation,3.0,Islamic State (Greater Sahara),2.0,23.0,10.0
+278,2019.0,2018-12-17,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
+279,2019.0,2018-12-16,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,12.0
+280,2019.0,2018-12-16,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,1.0
+281,2019.0,2018-12-15,Niger,Tillaberi,Say,Torodi,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,1.0
+282,2019.0,2018-12-07,Niger,Tillaberi,Tillaberi,Sinder,Strategic developments,Change to group/activity,Government of Niger (2011-),1.0,,0.0,10.0,2.0
+283,2019.0,2018-12-03,Niger,Tillaberi,Ouallam,Tondikiwindi,Strategic developments,Arrests,Military Forces of Niger (2011-) Gendarmerie,1.0,Islamic State (Greater Sahara),2.0,12.0,9.0
+284,2019.0,2018-11-30,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,JNIM: Group for Support of Islam and Muslims,2.0,Police Forces of Niger (2011-),1.0,12.0,4.0
+285,2019.0,2018-11-30,Niger,Tillaberi,Say,Say,Strategic developments,Change to group/activity,Government of Niger (2011-),1.0,,0.0,10.0,11.0
+286,2019.0,2018-11-30,Niger,Tillaberi,Tera,Tera,Strategic developments,Change to group/activity,Government of Niger (2011-),1.0,,0.0,10.0,1.0
+287,2019.0,2018-11-21,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,5.0
+288,2019.0,2018-11-17,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,3.0
+289,2019.0,2018-11-08,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Military Forces of France (2017-),8.0,Islamic State (Greater Sahara),2.0,28.0,10.0
+290,2019.0,2018-11-07,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,Civilians (Niger),7.0,37.0,0.0
+291,2019.0,2018-11-06,Niger,Tillaberi,Say,Torodi,Explosions/Remote violence,Remote explosive/landmine/IED,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,8.0
+292,2019.0,2018-11-05,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Tuareg Ethnic Militia (Mali),4.0,Civilians (Niger),7.0,47.0,2.0
+293,2019.0,2018-11-01,Niger,Tillaberi,Say,Torodi,Strategic developments,Looting/property destruction,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
+294,2019.0,2018-10-30,Niger,Tillaberi,Filingue,Abala,Strategic developments,Looting/property destruction,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,2.0
+295,2019.0,2018-10-27,Niger,Tillaberi,Say,Torodi,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,6.0
+296,2019.0,2018-10-24,Niger,Tillaberi,Tillaberi,Ayorou,Strategic developments,Change to group/activity,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
+297,2019.0,2018-10-22,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,Civilians (Niger),7.0,37.0,0.0
+298,2019.0,2018-10-18,Niger,Tillaberi,Say,Torodi,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,,0.0,20.0,0.0
+299,2019.0,2018-10-18,Niger,Tillaberi,Say,Torodi,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,7.0
+300,2019.0,2018-10-17,Niger,Tillaberi,Say,Torodi,Strategic developments,Looting/property destruction,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+301,2019.0,2018-10-05,Niger,Tillaberi,Filingue,Abala,Battles,Armed clash,MSA: Movement for Azawad Salvation,3.0,Fulani Ethnic Militia (Niger),4.0,34.0,4.0
+302,2019.0,2018-09-29,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Military Forces of Niger (2011-) Gendarmerie,1.0,Civilians (Niger),7.0,17.0,2.0
+303,2019.0,2018-09-27,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,16.0
 304,2019.0,2018-09-25,Niger,Tillaberi,Tillaberi,Anzourou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-305,2019.0,2018-09-17,Niger,Tillaberi,Say,Torodi,Violence against civilians,Abduction/forced disappearance,Islamic State (Greater Sahara),2.0,Civilians (International),7.0,27.0,39.0
-306,2019.0,2018-09-07,Niger,Tillaberi,Banibangou,Bani Bangou,Strategic developments,Agreement,Government of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
-307,2019.0,2018-08-18,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,23.0,0.0
-308,2019.0,2018-08-01,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,2.0
-309,2019.0,2018-07-26,Niger,Tillaberi,Tillaberi,Ayorou,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,2.0
-310,2019.0,2018-07-17,Niger,Tillaberi,Say,Tamou,Battles,Armed clash,Police Forces of Niger (2011-) Green Guards,1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
-311,2019.0,2018-07-13,Niger,Tillaberi,Ouallam,Bani Bangou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-312,2019.0,2018-07-10,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-313,2019.0,2018-07-08,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,5.0
-314,2019.0,2018-07-07,Niger,Tillaberi,Say,Torodi,Strategic developments,Change to group/activity,Islamic State (Greater Sahara),2.0,,0.0,20.0,0.0
-315,2019.0,2018-07-06,Niger,Tillaberi,Ouallam,Ouallam,Strategic developments,Disrupted weapons use,Military Forces of France (2017-),8.0,Islamic State (Greater Sahara),2.0,28.0,0.0
-316,2019.0,2018-07-01,Niger,Tillaberi,Kollo,Karma,Strategic developments,Other,Al Mourabitoune Battalion,2.0,,0.0,20.0,1.0
-317,2019.0,2018-06-19,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,9.0
-318,2019.0,2018-06-18,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,1.0
-319,2019.0,2018-06-15,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,7.0
-320,2019.0,2018-06-12,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Mali),7.0,37.0,1.0
-321,2019.0,2018-06-09,Niger,Tillaberi,Ouallam,Ouallam,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,1.0
-322,2019.0,2018-05-28,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Abduction/forced disappearance,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,2.0
-323,2019.0,2018-05-18,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,Civilians (Niger),7.0,37.0,3.0
-324,2019.0,2018-05-14,Niger,Tahoua,Tahoua,Tahoua,Strategic developments,Disrupted weapons use,Police Forces of Niger (2011-),1.0,,0.0,10.0,1.0
-325,2019.0,2018-05-10,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,6.0
-326,2019.0,2018-04-28,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,0.0
-327,2019.0,2018-04-27,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,0.0
-328,2019.0,2018-04-26,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,0.0
-329,2019.0,2018-04-16,Niger,Tillaberi,Filingue,Kourfeye,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-330,2019.0,2018-04-11,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Abduction/forced disappearance,Islamic State (Greater Sahara),2.0,Civilians (Germany),7.0,27.0,0.0
-331,2019.0,2018-04-06,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,MSA: Movement for Azawad Salvation,3.0,Islamic State (Greater Sahara),2.0,23.0,0.0
-332,2019.0,2018-04-01,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Mali),7.0,37.0,0.0
-333,2019.0,2018-03-12,Niger,Tillaberi,Ouallam,Simiri,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,6.0
-334,2019.0,2018-03-12,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,2.0
-335,2019.0,2018-03-11,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,Military Forces of Niger (2011-),1.0,13.0,0.0
-336,2019.0,2018-03-09,Niger,Tillaberi,Tera,Kokoro,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
-337,2019.0,2018-03-08,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
-338,2019.0,2018-02-25,Niger,Tillaberi,Tillaberi,Sinder,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,5.0
-339,2019.0,2018-02-25,Niger,Tahoua,Tahoua,Tahoua,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,0.0
-340,2019.0,2018-01-23,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
-341,2019.0,2017-11-06,Niger,Tillaberi,Tillaberi,Sinder,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Mali),7.0,37.0,1.0
-342,2019.0,2017-11-02,Niger,Tillaberi,Tera,Tera,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,,0.0,30.0,2.0
-343,2019.0,2017-10-21,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,1.0
-344,2019.0,2017-10-21,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
-345,2019.0,2017-10-12,Niger,Tillaberi,Tera,Gorouol,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-346,2019.0,2017-10-05,Niger,Tillaberi,Tillaberi,Sinder,Battles,Armed clash,Military Forces of France (2017-),8.0,Unidentified Armed Group (Niger),3.0,38.0,0.0
-347,2019.0,2017-10-04,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
-348,2019.0,2017-09-06,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Mali),7.0,37.0,0.0
-349,2019.0,2017-08-28,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
-350,2019.0,2017-05-31,Niger,Tillaberi,Filingue,Abala,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
-351,2019.0,2017-05-27,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Police Forces of Niger (2011-),1.0,13.0,1.0
-352,2019.0,2017-05-11,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
-353,2019.0,2017-04-30,Niger,Tillaberi,Tera,Kokoro,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
-354,2019.0,2017-03-06,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamist Militia (Niger),3.0,13.0,0.0
-355,2019.0,2017-03-06,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Islamist Militia (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
-356,2019.0,2017-03-05,Niger,Tillaberi,Tillaberi,Sinder,Battles,Armed clash,Military Forces of Niger (2011-) Gendarmerie,1.0,JNIM: Group for Support of Islam and Muslims,2.0,12.0,0.0
-357,2019.0,2017-02-22,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
-358,2019.0,2016-11-24,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Military Forces of Niger (2011-) Gendarmerie,1.0,Islamist Militia (Niger),3.0,13.0,0.0
-359,2019.0,2016-11-08,Niger,Tillaberi,Banibangou,Bani Bangou,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,1.0
-360,2019.0,2016-10-14,Niger,Tahoua,Tahoua,Abalak,Battles,Armed clash,Military Forces of Niger (2011-),1.0,AQIM: Al Qaeda in the Islamic Maghreb,2.0,12.0,0.0
-361,2019.0,2016-09-11,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Police Forces of Niger (2011-),1.0,13.0,6.0
-362,2019.0,2016-09-07,Niger,Tillaberi,Tillaberi,Sinder,Violence against civilians,Attack,Koglweogo Militia,3.0,Civilians (Niger),7.0,37.0,0.0
-363,2019.0,2016-07-09,Niger,Tahoua,Tahoua,Tahoua,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,0.0
-364,2019.0,2016-07-09,Niger,Tillaberi,Tillaberi,Sinder,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,2.0
-365,2019.0,2016-04-28,Niger,Tahoua,Tahoua,Tahoua,Battles,Armed clash,Ansar Dine,2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,0.0
-366,2019.0,2016-03-17,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Police Forces of Niger (2011-),1.0,12.0,0.0
-367,2019.0,2014-11-19,Niger,Tillaberi,Banibangou,Bani Bangou,Battles,Armed clash,MUJAO: Movement for Unity and Jihad in West Africa,2.0,Police Forces of Niger (2011-),1.0,12.0,0.0
-368,2019.0,2014-10-28,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,Police Forces of Niger (2011-),1.0,Unidentified Armed Group (Niger),3.0,13.0,1.0
-369,2019.0,2014-10-28,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
-370,2019.0,2014-10-28,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Police Forces of Niger (2011-),1.0,Unidentified Armed Group (Niger),3.0,13.0,4.0
-371,2019.0,2013-09-01,Niger,Tillaberi,Kollo,Karma,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,4.0
-372,2019.0,2012-08-05,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Unidentified Armed Group (Mali),3.0,13.0,0.0
-373,2019.0,2011-01-10,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
-374,2019.0,2011-01-08,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
-375,2019.0,2011-01-08,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,Military Forces of Niger (2010-2011),1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
-376,2019.0,2010-03-08,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,Military Forces of Niger (2010-2011),1.0,AQIM: Al Qaeda in the Islamic Maghreb,2.0,12.0,0.0
-377,2019.0,2009-12-27,Niger,Tillaberi,Tillaberi,Sinder,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (International),7.0,37.0,0.0
-378,2019.0,2008-12-14,Niger,Tillaberi,Tillaberi,Sinder,Violence against civilians,Abduction/forced disappearance,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Civilians (International),7.0,27.0,6.0
-379,2019.0,2008-06-04,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,MNJ: Nigerien Movement for Justice,2.0,Civilians (Niger),7.0,27.0,4.0
-380,2019.0,2008-03-15,Niger,Tillaberi,Banibangou,Bani Bangou,Battles,Armed clash,MNJ: Nigerien Movement for Justice,2.0,Military Forces of Niger (1999-2010),1.0,12.0,0.0
-381,2019.0,2007-12-09,Niger,Tahoua,Tahoua,Tahoua,Explosions/Remote violence,Remote explosive/landmine/IED,MNJ: Nigerien Movement for Justice,2.0,Civilians (Niger),7.0,27.0,0.0
-382,2019.0,2005-06-01,Niger,Tillaberi,Tillaberi,Sinder,Riots,Violent demonstration,Rioters (Niger),5.0,,0.0,50.0,2.0
-383,2019.0,2004-11-18,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Fassi Ethnic Militia (Niger),4.0,Fassi Ethnic Militia (Niger),4.0,44.0,0.0
-384,2019.0,2004-03-31,Niger,Tahoua,Tahoua,Tahoua,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,GSPC: Salafist Group for Call and Combat,2.0,12.0,7.0
-385,2019.0,2002-07-26,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,Unidentified Armed Group (Niger),3.0,13.0,1.0
-386,2019.0,1999-11-15,Niger,Tillaberi,Kollo,Kirtachi,Battles,Armed clash,Unidentified Communal Militia (Niger),4.0,Unidentified Communal Militia (Niger),4.0,44.0,0.0
-387,2019.0,1998-04-13,Niger,Tahoua,Tahoua,Tahoua,Riots,Violent demonstration,Rioters (Niger),5.0,Police Forces of Niger (1996-1999),1.0,15.0,0.0
-388,2019.0,1997-11-28,Niger,Tahoua,Tahoua,Tahoua,Battles,Armed clash,Tuareg Ethnic Militia (Niger),4.0,Military Forces of Niger (1996-1999),1.0,14.0,9.0
-389,2019.0,1997-11-28,Niger,Tahoua,Tahoua,Tahoua,Violence against civilians,Attack,Tuareg Ethnic Militia (Niger),4.0,Civilians (Niger),7.0,47.0,0.0
-390,2019.0,1997-07-09,Niger,Tillaberi,Banibangou,Bani Bangou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+305,2019.0,2018-09-25,Niger,Tillaberi,Tillaberi,Anzourou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+306,2019.0,2018-09-17,Niger,Tillaberi,Say,Torodi,Violence against civilians,Abduction/forced disappearance,Islamic State (Greater Sahara),2.0,Civilians (International),7.0,27.0,39.0
+307,2019.0,2018-09-07,Niger,Tillaberi,Banibangou,Bani Bangou,Strategic developments,Agreement,Government of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
+308,2019.0,2018-08-18,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,23.0,0.0
+309,2019.0,2018-08-01,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,2.0
+310,2019.0,2018-07-26,Niger,Tillaberi,Tillaberi,Ayorou,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,2.0
+311,2019.0,2018-07-17,Niger,Tillaberi,Say,Tamou,Battles,Armed clash,Police Forces of Niger (2011-) Green Guards,1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
+312,2019.0,2018-07-13,Niger,Tillaberi,Ouallam,Bani Bangou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+313,2019.0,2018-07-10,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+314,2019.0,2018-07-08,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,5.0
+315,2019.0,2018-07-07,Niger,Tillaberi,Say,Torodi,Strategic developments,Change to group/activity,Islamic State (Greater Sahara),2.0,,0.0,20.0,0.0
+316,2019.0,2018-07-06,Niger,Tillaberi,Ouallam,Ouallam,Strategic developments,Disrupted weapons use,Military Forces of France (2017-),8.0,Islamic State (Greater Sahara),2.0,28.0,0.0
+317,2019.0,2018-07-01,Niger,Tillaberi,Kollo,Karma,Strategic developments,Other,Al Mourabitoune Battalion,2.0,,0.0,20.0,1.0
+318,2019.0,2018-06-19,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,9.0
+319,2019.0,2018-06-18,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,1.0
+320,2019.0,2018-06-15,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,7.0
+321,2019.0,2018-06-12,Niger,Tillaberi,Ouallam,Tondikiwindi,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Mali),7.0,37.0,1.0
+322,2019.0,2018-06-09,Niger,Tillaberi,Ouallam,Ouallam,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,1.0
+323,2019.0,2018-05-28,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Abduction/forced disappearance,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,2.0
+324,2019.0,2018-05-18,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,Civilians (Niger),7.0,37.0,3.0
+325,2019.0,2018-05-14,Niger,Tahoua,Tahoua,Tahoua,Strategic developments,Disrupted weapons use,Police Forces of Niger (2011-),1.0,,0.0,10.0,1.0
+326,2019.0,2018-05-10,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,6.0
+327,2019.0,2018-04-28,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,0.0
+328,2019.0,2018-04-27,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,0.0
+329,2019.0,2018-04-26,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Niger),7.0,37.0,0.0
+330,2019.0,2018-04-16,Niger,Tillaberi,Filingue,Kourfeye,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+331,2019.0,2018-04-11,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Abduction/forced disappearance,Islamic State (Greater Sahara),2.0,Civilians (Germany),7.0,27.0,0.0
+332,2019.0,2018-04-06,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,MSA: Movement for Azawad Salvation,3.0,Islamic State (Greater Sahara),2.0,23.0,0.0
+333,2019.0,2018-04-01,Niger,Tillaberi,Filingue,Abala,Violence against civilians,Attack,MSA: Movement for Azawad Salvation,3.0,Civilians (Mali),7.0,37.0,0.0
+334,2019.0,2018-03-12,Niger,Tillaberi,Ouallam,Simiri,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,6.0
+335,2019.0,2018-03-12,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,2.0
+336,2019.0,2018-03-11,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,GATIA: Imghad Tuareg and Allies Self-Defense Group,3.0,Military Forces of Niger (2011-),1.0,13.0,0.0
+337,2019.0,2018-03-09,Niger,Tillaberi,Tera,Kokoro,Violence against civilians,Attack,Islamic State (Greater Sahara),2.0,Civilians (Niger),7.0,27.0,0.0
+338,2019.0,2018-03-08,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamic State (Greater Sahara),2.0,12.0,0.0
+339,2019.0,2018-02-25,Niger,Tillaberi,Tillaberi,Sinder,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,5.0
+340,2019.0,2018-02-25,Niger,Tahoua,Tahoua,Tahoua,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,0.0
+341,2019.0,2018-01-23,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
+342,2019.0,2017-11-06,Niger,Tillaberi,Tillaberi,Sinder,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Mali),7.0,37.0,1.0
+343,2019.0,2017-11-02,Niger,Tillaberi,Tera,Tera,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,,0.0,30.0,2.0
+344,2019.0,2017-10-21,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,1.0
+345,2019.0,2017-10-21,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
+346,2019.0,2017-10-12,Niger,Tillaberi,Tera,Gorouol,Strategic developments,Looting/property destruction,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+347,2019.0,2017-10-05,Niger,Tillaberi,Tillaberi,Sinder,Battles,Armed clash,Military Forces of France (2017-),8.0,Unidentified Armed Group (Niger),3.0,38.0,0.0
+348,2019.0,2017-10-04,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
+349,2019.0,2017-09-06,Niger,Tillaberi,Tillaberi,Ayorou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Mali),7.0,37.0,0.0
+350,2019.0,2017-08-28,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+351,2019.0,2017-07-05,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Battles,Armed clash,JNIM: Group for Support of Islam and Muslims,2.0,Military Forces of Niger (2011-),1.0,12.0,4.0
+352,2019.0,2017-05-31,Niger,Tillaberi,Filingue,Abala,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
+353,2019.0,2017-05-27,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Police Forces of Niger (2011-),1.0,13.0,1.0
+354,2019.0,2017-05-11,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
+355,2019.0,2017-04-30,Niger,Tillaberi,Tera,Kokoro,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
+356,2019.0,2017-03-06,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Islamist Militia (Niger),3.0,13.0,0.0
+357,2019.0,2017-03-06,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Islamist Militia (Niger),3.0,Military Forces of Niger (2011-) Gendarmerie,1.0,13.0,0.0
+358,2019.0,2017-03-05,Niger,Tillaberi,Tillaberi,Sinder,Battles,Armed clash,Military Forces of Niger (2011-) Gendarmerie,1.0,JNIM: Group for Support of Islam and Muslims,2.0,12.0,0.0
+359,2019.0,2017-02-22,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
+360,2019.0,2016-11-24,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,Military Forces of Niger (2011-) Gendarmerie,1.0,Islamist Militia (Niger),3.0,13.0,0.0
+361,2019.0,2016-11-08,Niger,Tillaberi,Banibangou,Bani Bangou,Battles,Armed clash,Islamic State (Greater Sahara),2.0,Military Forces of Niger (2011-),1.0,12.0,1.0
+362,2019.0,2016-10-14,Niger,Tahoua,Tahoua,Abalak,Battles,Armed clash,Military Forces of Niger (2011-),1.0,AQIM: Al Qaeda in the Islamic Maghreb,2.0,12.0,0.0
+363,2019.0,2016-10-06,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Battles,Armed clash,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Military Forces of Niger (2011-),1.0,12.0,15.0
+364,2019.0,2016-09-11,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Unidentified Armed Group (Niger),3.0,Police Forces of Niger (2011-),1.0,13.0,6.0
+365,2019.0,2016-09-07,Niger,Tillaberi,Tillaberi,Sinder,Violence against civilians,Attack,Koglweogo Militia,3.0,Civilians (Niger),7.0,37.0,0.0
+366,2019.0,2016-07-09,Niger,Tahoua,Tahoua,Tahoua,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,0.0
+367,2019.0,2016-07-09,Niger,Tillaberi,Tillaberi,Sinder,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,2.0
+368,2019.0,2016-04-28,Niger,Tahoua,Tahoua,Tahoua,Battles,Armed clash,Ansar Dine,2.0,Military Forces of Niger (2011-) Gendarmerie,1.0,12.0,0.0
+369,2019.0,2016-03-17,Niger,Tillaberi,Tera,Tera,Battles,Armed clash,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Police Forces of Niger (2011-),1.0,12.0,0.0
+370,2019.0,2014-11-19,Niger,Tillaberi,Banibangou,Bani Bangou,Battles,Armed clash,MUJAO: Movement for Unity and Jihad in West Africa,2.0,Police Forces of Niger (2011-),1.0,12.0,0.0
+371,2019.0,2014-10-28,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,Police Forces of Niger (2011-),1.0,Unidentified Armed Group (Niger),3.0,13.0,1.0
+372,2019.0,2014-10-28,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
+373,2019.0,2014-10-28,Niger,Tillaberi,Ouallam,Tondikiwindi,Battles,Armed clash,Police Forces of Niger (2011-),1.0,Unidentified Armed Group (Niger),3.0,13.0,4.0
+374,2019.0,2013-09-01,Niger,Tillaberi,Kollo,Karma,Protests,Peaceful protest,Protesters (Niger),6.0,,0.0,60.0,4.0
+375,2019.0,2012-08-05,Niger,Tillaberi,Tillaberi,Ayorou,Battles,Armed clash,Military Forces of Niger (2011-),1.0,Unidentified Armed Group (Mali),3.0,13.0,0.0
+376,2019.0,2011-01-10,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
+377,2019.0,2011-01-08,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Military Forces of Niger (2011-),1.0,12.0,0.0
+378,2019.0,2011-01-08,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,Military Forces of Niger (2010-2011),1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
+379,2019.0,2010-03-08,Niger,Tillaberi,Ouallam,Ouallam,Battles,Armed clash,Military Forces of Niger (2010-2011),1.0,AQIM: Al Qaeda in the Islamic Maghreb,2.0,12.0,0.0
+380,2019.0,2010-01-05,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,Unidentified Armed Group (Niger),3.0,13.0,1.0
+381,2019.0,2009-12-31,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
+382,2019.0,2009-12-30,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0
+383,2019.0,2009-12-30,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,Unidentified Armed Group (Niger),3.0,13.0,0.0
+384,2019.0,2009-12-27,Niger,Tillaberi,Tillaberi,Sinder,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (International),7.0,37.0,0.0
+385,2019.0,2008-12-14,Niger,Tillaberi,Tillaberi,Sinder,Violence against civilians,Abduction/forced disappearance,AQIM: Al Qaeda in the Islamic Maghreb,2.0,Civilians (International),7.0,27.0,6.0
+386,2019.0,2008-06-04,Niger,Tillaberi,Tera,Tera,Violence against civilians,Attack,MNJ: Nigerien Movement for Justice,2.0,Civilians (Niger),7.0,27.0,4.0
+387,2019.0,2008-03-15,Niger,Tillaberi,Banibangou,Bani Bangou,Battles,Armed clash,MNJ: Nigerien Movement for Justice,2.0,Military Forces of Niger (1999-2010),1.0,12.0,0.0
+388,2019.0,2007-12-09,Niger,Tahoua,Tahoua,Tahoua,Explosions/Remote violence,Remote explosive/landmine/IED,MNJ: Nigerien Movement for Justice,2.0,Civilians (Niger),7.0,27.0,0.0
+389,2019.0,2005-06-01,Niger,Tillaberi,Tillaberi,Sinder,Riots,Violent demonstration,Rioters (Niger),5.0,,0.0,50.0,2.0
+390,2019.0,2004-11-18,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Fassi Ethnic Militia (Niger),4.0,Fassi Ethnic Militia (Niger),4.0,44.0,0.0
+391,2019.0,2004-03-31,Niger,Tahoua,Tahoua,Tahoua,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,GSPC: Salafist Group for Call and Combat,2.0,12.0,7.0
+392,2019.0,2004-02-28,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,GSPC: Salafist Group for Call and Combat,2.0,12.0,11.0
+393,2019.0,2004-02-20,Niger,Tahoua,Tassara,ZR Tchin-Tabaraden,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,GSPC: Salafist Group for Call and Combat,2.0,12.0,1.0
+394,2019.0,2002-07-26,Niger,Tillaberi,Say,Torodi,Battles,Armed clash,Military Forces of Niger (1999-2010),1.0,Unidentified Armed Group (Niger),3.0,13.0,1.0
+395,2019.0,1999-11-15,Niger,Tillaberi,Kollo,Kirtachi,Battles,Armed clash,Unidentified Communal Militia (Niger),4.0,Unidentified Communal Militia (Niger),4.0,44.0,0.0
+396,2019.0,1998-04-13,Niger,Tahoua,Tahoua,Tahoua,Riots,Violent demonstration,Rioters (Niger),5.0,Police Forces of Niger (1996-1999),1.0,15.0,0.0
+397,2019.0,1997-11-28,Niger,Tahoua,Tahoua,Tahoua,Battles,Armed clash,Tuareg Ethnic Militia (Niger),4.0,Military Forces of Niger (1996-1999),1.0,14.0,9.0
+398,2019.0,1997-11-28,Niger,Tahoua,Tahoua,Tahoua,Violence against civilians,Attack,Tuareg Ethnic Militia (Niger),4.0,Civilians (Niger),7.0,47.0,0.0
+399,2019.0,1997-07-09,Niger,Tillaberi,Banibangou,Bani Bangou,Violence against civilians,Attack,Unidentified Armed Group (Niger),3.0,Civilians (Niger),7.0,37.0,0.0

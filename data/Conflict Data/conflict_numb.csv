@@ -24,6 +24,7 @@ reference_year,adm2_name,conflicts,fatalities
 2014.0,Seno,1,0.0
 2014.0,Soum,3,0.0
 2014.0,Tahoua,0,0
+2014.0,Tassara,0,0
 2014.0,Tenenkou,6,1.0
 2014.0,Tera,0,0
 2014.0,Tillaberi,0,0
@@ -57,6 +58,7 @@ reference_year,adm2_name,conflicts,fatalities
 2015.0,Seno,1,0.0
 2015.0,Soum,2,2.0
 2015.0,Tahoua,0,0
+2015.0,Tassara,0,0
 2015.0,Tenenkou,9,0.0
 2015.0,Tera,0,0
 2015.0,Tillaberi,0,0
@@ -90,6 +92,7 @@ reference_year,adm2_name,conflicts,fatalities
 2016.0,Seno,0,0
 2016.0,Soum,13,19.0
 2016.0,Tahoua,0,0
+2016.0,Tassara,0,0
 2016.0,Tenenkou,12,6.0
 2016.0,Tera,0,0
 2016.0,Tillaberi,0,0
@@ -123,6 +126,7 @@ reference_year,adm2_name,conflicts,fatalities
 2017.0,Seno,1,1.0
 2017.0,Soum,70,64.0
 2017.0,Tahoua,0,0
+2017.0,Tassara,0,0
 2017.0,Tenenkou,5,0.0
 2017.0,Tera,0,0
 2017.0,Tillaberi,0,0
@@ -156,6 +160,7 @@ reference_year,adm2_name,conflicts,fatalities
 2018.0,Seno,2,0.0
 2018.0,Soum,95,161.0
 2018.0,Tahoua,0,0
+2018.0,Tassara,0,0
 2018.0,Tenenkou,20,15.0
 2018.0,Tera,0,0
 2018.0,Tillaberi,0,0
@@ -189,6 +194,7 @@ reference_year,adm2_name,conflicts,fatalities
 2019.0,Seno,18,73.0
 2019.0,Soum,188,923.0
 2019.0,Tahoua,10,17.0
+2019.0,Tassara,8,32.0
 2019.0,Tenenkou,13,7.0
 2019.0,Tera,19,38.0
 2019.0,Tillaberi,45,217.0
@@ -222,6 +228,7 @@ reference_year,adm2_name,conflicts,fatalities
 2020.0,Seno,13,28.0
 2020.0,Soum,79,457.0
 2020.0,Tahoua,1,2.0
+2020.0,Tassara,1,0.0
 2020.0,Tenenkou,3,0.0
 2020.0,Tera,32,94.0
 2020.0,Tillaberi,64,153.0

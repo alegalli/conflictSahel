@@ -90,6 +90,8 @@ for i in confn.index:
         confn.at[i,'adm2_name']='Say'
     if confn.loc[i,'adm3_name']=='Abala':
         confn.at[i,'adm2_name']='Filingue'
+    if confn.loc[i,'adm2_name']=='Tchintabaraden':
+        confn.at[i,'adm2_name']='Tassara'
 
 confm = confm[confm.adm2_name.isin(['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou',
                                     'Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou',
