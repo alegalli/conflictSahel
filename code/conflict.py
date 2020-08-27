@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 # DONE: conflict_numb.csv aggregated data per reference_year, adm2_name
 
 
-confm = pd.read_csv('../data/Conflict Data/Conflict Data for Mali.csv')
-confb = pd.read_csv('../data/Conflict Data/Conflict Data for Burkina Faso.csv')
-confn = pd.read_csv('../data/Conflict Data/Conflict Data for Niger.csv')
+confm = pd.read_csv('../data/Conflict Data/conflict_data_mli.csv')
+confb = pd.read_csv('../data/Conflict Data/conflict_data_bfa.csv')
+confn = pd.read_csv('../data/Conflict Data/conflict_data_ner.csv')
 
 # Select columns I'm interested in
 confm.rename(columns={'country':'adm0_name',

@@ -1,0 +1,56 @@
+Dimension and Last Dataset Update
+
+August 27, 2020:
+
+Food Prices:
+Burkina Faso - Food PricesCSV (3.9M)
+Updated: August 23, 2020
+
+Mali - Food PricesCSV (6.4M)
+Updated: August 23, 2020
+
+Niger - Food PricesCSV (5.9M)
+Updated: August 23, 2020
+
+
+CH:
+cadre_harmonise.xlsxXLSX (1.6M)
+Updated: August 10, 2020
+
+
+Conflict:
+Conflict Data for Burkina FasoCSV (1.2M)
+Updated: August 26, 2020
+
+Conflict Data for MaliCSV (1.7M)
+Updated: August 26, 2020
+
+Conflict Data for NigerCSV (600.2K)
+Updated: August 26, 2020
+
+
+IDPs:
+Mali — Baseline Assessment — Round 64
+Published date:29 May 2020 Snapshot date:April 2020
+
+Mali — Baseline Assessment — Round 60
+Published date:31 January 2020 Snapshot date:December 2019
+
+Mali - Baseline Assessment - Round 48
+Published date:24 January 2019 Snapshot date:December 2018
+
+Mali - Baseline Assessment Round 38
+Published date:31 December 2017 Snapshot date:December 2017
+
+Mali - Baseline Assessment Round 28
+Published date:30 December 2016 Snapshot date:December 2016
+
+Mali - Baseline Assessment Round 19
+Published date:30 January 2016 Snapshot date:January 2016
+
+Mali - Baseline Assessment Round 18
+Published date:30 November 2015 Snapshot date:November 2015
+
+Mali - Baseline Assessment Round 12
+Published date:30 December 2014 Snapshot date:December 2014
+
