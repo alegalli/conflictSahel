@@ -3,7 +3,14 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # DONE: conflict_numb.csv aggregated data per reference_year, adm2_name
-
+adm2 = ['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou',
+        'Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou',
+        'Ansongo','Bourem','Gao','Menaka',
+        'Loroum','Yatenga',
+        'Oudalan','Seno','Soum','Yagha',
+        'Komonjdjari',
+        'Tahoua','Tassara','Tillia',
+        'Banibangou','Filingue','Kollo','Ouallam','Say','Tera','Tillaberi']
 
 confm = pd.read_csv('../data/Conflict Data/conflict_data_mli.csv')
 confb = pd.read_csv('../data/Conflict Data/conflict_data_bfa.csv')
@@ -51,9 +58,18 @@ confn = confn[['reference_year','date','adm0_name','adm1_name','adm2_name','adm3
         'event_type','sub_event_type','actor1','inter1','actor2','inter2','interaction','fatalities']]
 
 # Extract reference_year
-confm = confm[confm.reference_year.isin([2014,2015,2016,2017,2018,2019])]
-confb = confb[confb.reference_year.isin([2014,2015,2016,2017,2018,2019])]
-confn = confn[confn.reference_year.isin([2014,2015,2016,2017,2018,2019])]
+confm.drop(index=0,inplace=True)
+confb.drop(index=0,inplace=True)
+confn.drop(index=0,inplace=True)
+confm.reference_year = confb.reference_year.astype(str).astype(int)
+confb.reference_year = confb.reference_year.astype(str).astype(int)
+confn.reference_year = confb.reference_year.astype(str).astype(int)
+confm.fatalities = confb.fatalities.astype(str).astype(int)
+confb.fatalities = confb.fatalities.astype(str).astype(int)
+confn.fatalities = confb.fatalities.astype(str).astype(int)
+confm = confm[confm.reference_year.isin([2014,2015,2016,2017,2018,2019,2020])]
+confb = confb[confb.reference_year.isin([2014,2015,2016,2017,2018,2019,2020])]
+confn = confn[confn.reference_year.isin([2014,2015,2016,2017,2018,2019,2020])]
 
 # Select adm1_name to work with
 confm = confm[confm.adm1_name.isin(['Gao','Mopti','Tombouctou','Nord','Sahel','Est','Tahoua','Tillaberi'])]
@@ -69,15 +85,20 @@ confn = confn.reset_index(drop=True)
 # adm3=='Abala' => adm2:'Abala'
 for i in confn.index:
     if confn.loc[i,'adm3_name']=='Ayorou':
-        confn.at[i,'adm2_name']='Ayerou'
+        confn.at[i,'adm2_name']='Tillaberi'
     if confn.loc[i,'adm3_name']=='Torodi':
-        confn.at[i,'adm2_name']='Torodi'
+        confn.at[i,'adm2_name']='Say'
     if confn.loc[i,'adm3_name']=='Abala':
-        confn.at[i,'adm2_name']='Abala'
+        confn.at[i,'adm2_name']='Filingue'
 
-confm = confm[confm.adm2_name.isin(['Bankass','Koro','Douentza','Djenne','Bandiagara','Tenenkou','Mopti','Youwarou', 'Goundam','Gourma-Rharous','Dire','Niafunke','Tombouctou', 'Gao','Ansongo','Menaka','Bourem'])]
-confb = confb[confb.adm2_name.isin(['Yatenga','Loroum', 'Yagha','Seno','Soum','Oudalan', 'Komonjdjari'])]
-confn = confn[confn.adm2_name.isin(['Tillia', 'Banibangou','Filingue','Ouallam','Say','Tera','Torodi','Abala','Ayerou'])]#removed: Tassara, Gotheye, Bankilare, Balleyara Because are not in the database, Tillaberi,Tahoua because in lean these data are mess
+confm = confm[confm.adm2_name.isin(['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou',
+                                    'Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou',
+                                    'Ansongo','Bourem','Gao','Menaka'])]
+confb = confb[confb.adm2_name.isin(['Loroum','Yatenga',
+                                    'Oudalan','Seno','Soum','Yagha',
+                                    'Komonjdjari'])]
+confn = confn[confn.adm2_name.isin(['Tahoua','Tassara','Tillia',
+                                    'Banibangou','Filingue','Kollo','Ouallam','Say','Tera','Tillaberi'])]
 confm = confm.reset_index(drop=True)
 confb = confb.reset_index(drop=True)
 confn = confn.reset_index(drop=True)
@@ -87,7 +108,6 @@ confn = confn.reset_index(drop=True)
 # Total conflicts
 conf = confm.append(confb.append(confn)).reset_index()
 
-conf['fatalities'] = conf['fatalities'].astype(str).astype(int)
 
 
 
@@ -96,6 +116,7 @@ ncy = pd.DataFrame(columns=['reference_year','adm2_name','conflicts','fatalities
 for year in conf['reference_year'].unique():
     for adm2_name in conf['adm2_name'].unique():
         ncy = ncy.append(pd.Series([year, adm2_name, 0, 0],index=ncy.columns),ignore_index=True)
+#    ncy = ncy.append(pd.Series([year, Tassara, 0, 0],index=ncy.columns),ignore_index=True)
 
 ncy = ncy.sort_values(by=['reference_year','adm2_name'])
 ncy = ncy.reset_index(drop=True)
@@ -114,6 +135,8 @@ for index, row in c.iterrows():
 
 for index, row in f.iterrows():
     ncy.loc[(ncy.reference_year == row.reference_year) & (ncy.adm2_name == row.adm2_name), 'fatalities'] = row['fatalities']
+
+
 
 # Data explored in Jupyter Notebook
 """
