@@ -28,7 +28,7 @@ food = food[['date','reference_year','adm0_name','adm1_name','category','cmname'
 food['price'] = food['price'].astype(float)
 
 # Select index I'm interested in
-food = food[food.reference_year.isin([2011,2012,2013,2014,2015,2016,2017,2018,2019])]
+food = food[food.reference_year.isin([2011,2012,2013,2014,2015,2016,2017,2018,2019,2020])]
 food = food[food.adm1_name.isin(['Gao','Mopti','Tombouctou','Nord','Sahel','Est','Tahoua','Tillaberi'])]
 food = food.reset_index(drop=True)
 
