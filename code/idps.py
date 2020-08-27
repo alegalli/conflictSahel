@@ -2,6 +2,10 @@ import pandas as pd
 import xlrd
 import numpy as np
 
+adm2 = ['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou',
+        'Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou',
+        'Ansongo','Bourem','Gao','Menaka']
+
 # The following data are useful to us
 dec14 = pd.read_excel('../data/IDPs Data/Baseline_Assessment_Round_12.xlsx')
 nov15 = pd.read_excel('../data/IDPs Data/Baseline_Assessment_Round_18.xlsx')
@@ -146,7 +150,13 @@ idps_mali = dec14.append(dec15.append(dec16.append(dec17.append(dec18.append(dec
 
 idps_mali['diff_last_year'] = idps_mali.groupby('adm2_name')['Total No# of IDPs Ind#'].diff().fillna(0)
 idps_mali['diff_per_month'] = idps_mali['diff_last_year']/12
-idps_mali['diff_per_month'][idps_mali['reference_year'].isin([2020])] = idps_mali['diff_per_month']*12/4
+
+permonth20 = idps_mali[idps_mali['reference_year'].isin([2020])]
+permonth20.loc[:,'diff_per_month'] *= 3
+for a in adm2:
+    idps_mali.loc[(idps_mali.reference_year==2020)&(idps_mali.adm2_name==a),'diff_per_month'] = permonth20.loc[(permonth20.reference_year==2020)&(permonth20.adm2_name==a)]['diff_per_month']
+
+
 
 # Export in csv
 idps_mali.to_csv('../data/IDPs Data/idps_mali.csv',index=False)
