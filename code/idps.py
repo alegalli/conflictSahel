@@ -158,14 +158,22 @@ dec15 = dec15.assign(date='2015-12-31')
 # Append it all from dec14
 idps_mali = dec14.append(dec15.append(dec16.append(dec17.append(dec18.append(dec19.append(apr20)))))).reset_index(drop=True)
 
-idps_mali['diff_last_year'] = idps_mali.groupby('adm2_name')['Total No# of IDPs Ind#'].diff().fillna(0)
-idps_mali['diff_per_month'] = idps_mali['diff_last_year']/12
+idps_mali['projected_idps'] = idps_mali['Total No# of IDPs Ind#']
+project20 = idps_mali[idps_mali['reference_year'].isin([2020])]
+project20.loc[:,'projected_idps'] *= 3
+for a in adm2:
+    idps_mali.loc[(idps_mali.reference_year==2020)&(idps_mali.adm2_name==a),'projected_idps'] = project20.loc[(project20.reference_year==2020)&(project20.adm2_name==a)]['projected_idps']
 
+idps_mali['diff_last_year'] = idps_mali.groupby('adm2_name')['projected_idps'].diff().fillna(0)
+
+# Difference per month deleted: opted per projected in current year (2020)
+"""
+idps_mali['diff_per_month'] = idps_mali['diff_last_year']/12
 permonth20 = idps_mali[idps_mali['reference_year'].isin([2020])]
 permonth20.loc[:,'diff_per_month'] *= 3
 for a in adm2:
     idps_mali.loc[(idps_mali.reference_year==2020)&(idps_mali.adm2_name==a),'diff_per_month'] = permonth20.loc[(permonth20.reference_year==2020)&(permonth20.adm2_name==a)]['diff_per_month']
-
+"""
 
 
 # Export in csv

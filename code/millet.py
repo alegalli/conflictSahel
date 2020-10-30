@@ -52,13 +52,13 @@ lg_decade = food['price'].mean()
 millet = pd.merge(millet,decade)
 millet['lg_decade_price'] = lg_decade
 
-# Sort # Not necessary
-#millet = millet.sort_values(['reference_year','adm0_name','adm1_name']).reset_index()
 
 millet['var_price'] = millet['actual_price']-millet['decade_price']
 millet['lg_var_price'] = millet['actual_price']-millet['lg_decade_price']
 
-
+# Sort
+millet = millet.sort_values(['reference_year','adm0_name','adm1_name']).reset_index()
+millet = millet[['reference_year','adm0_name','adm1_name','actual_price','decade_price','lg_decade_price','var_price','lg_var_price']]
 
 
 # Export millet at adm1 level, with a simple merge each adm2 level which shares

@@ -11,6 +11,14 @@ adm2 = ['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Yo
         'Komonjdjari',
         'Tahoua','Tassara','Tillia',
         'Banibangou','Filingue','Kollo','Ouallam','Say','Tera','Tillaberi']
+mopti = ['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou']
+tombouctou = ['Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou']
+gao = ['Ansongo','Bourem','Gao','Menaka']
+nord = ['Loroum','Yatenga']
+sahel = ['Oudalan','Seno','Soum','Yagha']
+est = ['Komonjdjari']
+tahoua = ['Tahoua','Tassara','Tillia']
+tillaberi = ['Banibangou','Filingue','Kollo','Ouallam','Say','Tera','Tillaberi']
 
 confm = pd.read_csv('../data/Conflict Data/conflict_data_mli.csv')
 confb = pd.read_csv('../data/Conflict Data/conflict_data_bfa.csv')
@@ -114,22 +122,45 @@ conf = confm.append(confb.append(confn)).reset_index()
 
 
 # Plot number of conflicts per year per adm2_name
-ncy = pd.DataFrame(columns=['reference_year','adm2_name','conflicts','fatalities'])
+ncy = pd.DataFrame(columns=['reference_year','adm0_name','adm1_name','adm2_name','conflicts','fatalities'])
 for year in conf['reference_year'].unique():
     for adm2_name in conf['adm2_name'].unique():
-        ncy = ncy.append(pd.Series([year, adm2_name, 0, 0],index=ncy.columns),ignore_index=True)
-#    ncy = ncy.append(pd.Series([year, Tassara, 0, 0],index=ncy.columns),ignore_index=True)
+        if adm2_name in mopti:
+            adm0_name = 'Mali'
+            adm1_name = 'Mopti'
+        elif adm2_name in tombouctou:
+            adm0_name = 'Mali'
+            adm1_name = 'Tombouctou'
+        elif adm2_name in gao:
+            adm0_name = 'Mali'
+            adm1_name = 'Gao'
+        elif adm2_name in nord:
+            adm0_name = 'Burkina Faso'
+            adm1_name = 'Nord'
+        elif adm2_name in sahel:
+            adm0_name = 'Burkina Faso'
+            adm1_name = 'Sahel'
+        elif adm2_name in est:
+            adm0_name = 'Burkina Faso'
+            adm1_name = 'Est'
+        elif adm2_name in tahoua:
+            adm0_name = 'Niger'
+            adm1_name = 'Tahoua'
+        elif adm2_name in tillaberi:
+            adm0_name = 'Niger'
+            adm1_name = 'Tillaberi'
+        ncy = ncy.append(pd.Series([year, adm0_name, adm1_name, adm2_name, 0, 0],index=ncy.columns),ignore_index=True)
 
-ncy = ncy.sort_values(by=['reference_year','adm2_name'])
+ncy = ncy.sort_values(by=['reference_year','adm0_name','adm1_name','adm2_name'])
 ncy = ncy.reset_index(drop=True)
 
 # Counts the number of conflicts for each adm2_name in Mali for each year
-c = pd.DataFrame({'conflicts' : conf.groupby(['reference_year','adm2_name']).size()}).reset_index()
-c = c.sort_values(by=['reference_year','adm2_name'])
+c = pd.DataFrame({'conflicts' : conf.groupby(['reference_year','adm0_name','adm1_name','adm2_name']).size()}).reset_index()
+c = c.sort_values(by=['reference_year','adm0_name','adm1_name','adm2_name'])
 c = c.reset_index(drop=True)
 # Counts the number of kills for each adm2_name in Mali for each year
-f = pd.DataFrame({'fatalities' : conf.groupby(['reference_year','adm2_name'])['fatalities'].sum()}).reset_index()
-f = f.sort_values(by=['reference_year','adm2_name'])
+f = pd.DataFrame({'fatalities' : conf.groupby(['reference_year','adm0_name','adm1_name','adm2_name'])['fatalities'].sum()}).reset_index()
+f = f.sort_values(by=['reference_year','adm0_name','adm1_name','adm2_name'])
 f = f.reset_index(drop=True)
 
 for index, row in c.iterrows():
@@ -137,6 +168,21 @@ for index, row in c.iterrows():
 
 for index, row in f.iterrows():
     ncy.loc[(ncy.reference_year == row.reference_year) & (ncy.adm2_name == row.adm2_name), 'fatalities'] = row['fatalities']
+
+
+
+ncy['projected_conflicts'] = ncy['conflicts']
+project20 = ncy[ncy['reference_year'].isin([2020])]
+project20.loc[:,'projected_conflicts'] *= 12/7
+for a in adm2:
+    ncy.loc[(ncy.reference_year==2020)&(ncy.adm2_name==a),'projected_conflicts'] = project20.loc[(project20.reference_year==2020)&(project20.adm2_name==a)]['projected_conflicts']
+
+ncy['projected_fatalities'] = ncy['fatalities']
+project20 = ncy[ncy['reference_year'].isin([2020])]
+project20.loc[:,'projected_fatalities'] *= 12/7
+for a in adm2:
+    ncy.loc[(ncy.reference_year==2020)&(ncy.adm2_name==a),'projected_fatalities'] = project20.loc[(project20.reference_year==2020)&(project20.adm2_name==a)]['projected_fatalities']
+
 
 
 

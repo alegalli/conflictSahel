@@ -52,6 +52,7 @@ for year in range(2014,2021):
 tera = ch.loc[ch.adm2_name=='Tera']
 tera_la = ch.loc[ch.adm2_name=='Tera_limitedaccess']
 bankilare = ch.loc[ch.adm2_name=='Bankilare']
+
 # NOTE: It MUST have the same index
 tera_la.index -= 1
 bankilare.index += 6
@@ -99,7 +100,6 @@ tillaberi = ch.loc[ch.adm2_name=='Tillaberi']
 tillaberi_la = ch.loc[ch.adm2_name=='Tillaberi_limitedaccess']
 tillaberi_commune = ch.loc[ch.adm2_name=='Tillaberi Commune']
 ayerou = ch.loc[ch.adm2_name=='Ayerou']
-gotheye = ch.loc[ch.adm2_name=='Gotheye']
 # NOTE: It MUST have the same index
 tillaberi_la.index -= 1
 tillaberi_commune.index -= 1
