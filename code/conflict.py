@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # DONE: conflict_numb.csv aggregated data per reference_year, adm2_name
 adm2 = ['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou',
-        'Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou',
+        'Dire','Gourma-Rharous','Niafunke', # Goundam and Tombouctou were not considered in the Liptako-Gourma study as adm2
         'Ansongo','Bourem','Gao','Menaka',
         'Loroum','Yatenga',
         'Oudalan','Seno','Soum','Yagha',
@@ -12,7 +12,7 @@ adm2 = ['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Yo
         'Tahoua','Tassara','Tillia',
         'Banibangou','Filingue','Kollo','Ouallam','Say','Tera','Tillaberi']
 mopti = ['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou']
-tombouctou = ['Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou']
+tombouctou = ['Dire','Gourma-Rharous','Niafunke']
 gao = ['Ansongo','Bourem','Gao','Menaka']
 nord = ['Loroum','Yatenga']
 sahel = ['Oudalan','Seno','Soum','Yagha']
@@ -69,15 +69,18 @@ confn = confn[['reference_year','date','adm0_name','adm1_name','adm2_name','adm3
 confm.drop(index=0,inplace=True)
 confb.drop(index=0,inplace=True)
 confn.drop(index=0,inplace=True)
-confm.reference_year = confb.reference_year.astype(str).astype(int)
+confm.reference_year = confm.reference_year.astype(str).astype(int)
 confb.reference_year = confb.reference_year.astype(str).astype(int)
-confn.reference_year = confb.reference_year.astype(str).astype(int)
-confm.fatalities = confb.fatalities.astype(str).astype(int)
+confn.reference_year = confn.reference_year.astype(str).astype(int)
+confm.fatalities = confm.fatalities.astype(str).astype(int)
 confb.fatalities = confb.fatalities.astype(str).astype(int)
-confn.fatalities = confb.fatalities.astype(str).astype(int)
+confn.fatalities = confn.fatalities.astype(str).astype(int)
 confm = confm[confm.reference_year.isin([2014,2015,2016,2017,2018,2019,2020])]
+confm = confm.reset_index(drop=True)
 confb = confb[confb.reference_year.isin([2014,2015,2016,2017,2018,2019,2020])]
+confb = confb.reset_index(drop=True)
 confn = confn[confn.reference_year.isin([2014,2015,2016,2017,2018,2019,2020])]
+confn = confn.reset_index(drop=True)
 
 # Select adm1_name to work with
 confm = confm[confm.adm1_name.isin(['Gao','Mopti','Tombouctou','Nord','Sahel','Est','Tahoua','Tillaberi'])]
@@ -87,10 +90,22 @@ confb = confb.reset_index(drop=True)
 confn = confn[confn.adm1_name.isin(['Gao','Mopti','Tombouctou','Nord','Sahel','Est','Tahoua','Tillaberi'])]
 confn = confn.reset_index(drop=True)
 
+# DONE LATER
+# Select just Violent Conflicts: event_type == 'Battles','Explosions/Remote violence','Violence against civilians','Riots'
+#confm = confm[confm.event_type.isin(['Battles','Explosions/Remote violence','Violence against civilians','Riots'])]
+#confm = confm.reset_index(drop=True)
+#confb = confb[confb.event_type.isin(['Battles','Explosions/Remote violence','Violence against civilians','Riots'])]
+#confb = confb.reset_index(drop=True)
+#confn = confn[confn.event_type.isin(['Battles','Explosions/Remote violence','Violence against civilians','Riots'])]
+#confn = confn.reset_index(drop=True)
+
+
+
 # Manipulate data to create consistency with the other data
-# adm3=='Ayorou' => adm2:'Ayerou'
-# adm3=='Torodi' => adm2:'Torodi'
-# adm3=='Abala' => adm2:'Abala'
+# adm3=='Ayorou' => adm2:'Tillaberi'
+# adm3=='Torodi' => adm2:'Say'
+# adm3=='Abala' => adm2:'Filingue'
+# adm2=='Tchintabaraden' => adm2:'Tassara'
 for i in confn.index:
     if confn.loc[i,'adm3_name']=='Ayorou':
         confn.at[i,'adm2_name']='Tillaberi'
@@ -102,7 +117,7 @@ for i in confn.index:
         confn.at[i,'adm2_name']='Tassara'
 
 confm = confm[confm.adm2_name.isin(['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou',
-                                    'Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou',
+                                    'Dire','Gourma-Rharous','Niafunke',
                                     'Ansongo','Bourem','Gao','Menaka'])]
 confb = confb[confb.adm2_name.isin(['Loroum','Yatenga',
                                     'Oudalan','Seno','Soum','Yagha',
@@ -119,12 +134,18 @@ confn = confn.reset_index(drop=True)
 conf = confm.append(confb.append(confn)).reset_index()
 
 
+# All the Violent Conflicts
+# Select just Violent Conflicts: event_type == 'Battles','Explosions/Remote violence','Violence against civilians','Riots'
+violc = conf[conf.event_type.isin(['Battles','Explosions/Remote violence','Violence against civilians','Riots'])]
+violc = violc.reset_index(drop=True)
 
 
-# Plot number of conflicts per year per adm2_name
+# Sintetic  number of conflicts per year per adm2_name
 ncy = pd.DataFrame(columns=['reference_year','adm0_name','adm1_name','adm2_name','conflicts','fatalities'])
 for year in conf['reference_year'].unique():
     for adm2_name in conf['adm2_name'].unique():
+        adm0_name = ''
+        adm1_name = ''
         if adm2_name in mopti:
             adm0_name = 'Mali'
             adm1_name = 'Mopti'
@@ -154,12 +175,13 @@ for year in conf['reference_year'].unique():
 ncy = ncy.sort_values(by=['reference_year','adm0_name','adm1_name','adm2_name'])
 ncy = ncy.reset_index(drop=True)
 
-# Counts the number of conflicts for each adm2_name in Mali for each year
-c = pd.DataFrame({'conflicts' : conf.groupby(['reference_year','adm0_name','adm1_name','adm2_name']).size()}).reset_index()
+
+# Counts the number of Violent Conflicts for each adm2_name in Mali for each year
+c = pd.DataFrame({'conflicts' : violc.groupby(['reference_year','adm0_name','adm1_name','adm2_name']).size()}).reset_index()
 c = c.sort_values(by=['reference_year','adm0_name','adm1_name','adm2_name'])
 c = c.reset_index(drop=True)
-# Counts the number of kills for each adm2_name in Mali for each year
-f = pd.DataFrame({'fatalities' : conf.groupby(['reference_year','adm0_name','adm1_name','adm2_name'])['fatalities'].sum()}).reset_index()
+# Counts the number of kills in Violent Conflicts for each adm2_name for each year
+f = pd.DataFrame({'fatalities' : violc.groupby(['reference_year','adm0_name','adm1_name','adm2_name'])['fatalities'].sum()}).reset_index()
 f = f.sort_values(by=['reference_year','adm0_name','adm1_name','adm2_name'])
 f = f.reset_index(drop=True)
 
@@ -167,21 +189,23 @@ for index, row in c.iterrows():
     ncy.loc[(ncy.reference_year == row.reference_year) & (ncy.adm2_name == row.adm2_name), 'conflicts'] = row['conflicts']
 
 for index, row in f.iterrows():
-    ncy.loc[(ncy.reference_year == row.reference_year) & (ncy.adm2_name == row.adm2_name), 'fatalities'] = row['fatalities']
+    ncy.loc[(ncy.reference_year == row.reference_year) & (ncy.adm2_name == row.adm2_name), 'fatalities'] = int(round(row['fatalities']))
 
 
+# Project conflicts and fatalities in 2020 - int(round())
+project20 = pd.DataFrame({})
 
-ncy['projected_conflicts'] = ncy['conflicts']
+ncy['projected_conflicts'] = ncy['conflicts'].astype('int32')
 project20 = ncy[ncy['reference_year'].isin([2020])]
 project20.loc[:,'projected_conflicts'] *= 12/7
 for a in adm2:
-    ncy.loc[(ncy.reference_year==2020)&(ncy.adm2_name==a),'projected_conflicts'] = project20.loc[(project20.reference_year==2020)&(project20.adm2_name==a)]['projected_conflicts']
+    ncy.loc[(ncy.reference_year==2020)&(ncy.adm2_name==a),'projected_conflicts'] = int(round(float(project20.loc[(project20.reference_year==2020)&(project20.adm2_name==a)]['projected_conflicts'])))
 
-ncy['projected_fatalities'] = ncy['fatalities']
+ncy['projected_fatalities'] = ncy['fatalities'].astype('int32')
 project20 = ncy[ncy['reference_year'].isin([2020])]
 project20.loc[:,'projected_fatalities'] *= 12/7
 for a in adm2:
-    ncy.loc[(ncy.reference_year==2020)&(ncy.adm2_name==a),'projected_fatalities'] = project20.loc[(project20.reference_year==2020)&(project20.adm2_name==a)]['projected_fatalities']
+    ncy.loc[(ncy.reference_year==2020)&(ncy.adm2_name==a),'projected_fatalities'] = int(round(float(project20.loc[(project20.reference_year==2020)&(project20.adm2_name==a)]['projected_fatalities'])))
 
 
 

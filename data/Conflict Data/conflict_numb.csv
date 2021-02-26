@@ -1,239 +1,225 @@
 reference_year,adm0_name,adm1_name,adm2_name,conflicts,fatalities,projected_conflicts,projected_fatalities
-2014.0,Burkina Faso,Est,Komonjdjari,0,0,0.0,0
-2014.0,Burkina Faso,Nord,Loroum,0,0,0.0,0
-2014.0,Burkina Faso,Nord,Yatenga,1,3.0,1.0,3.0
-2014.0,Burkina Faso,Sahel,Oudalan,0,0,0.0,0
-2014.0,Burkina Faso,Sahel,Seno,1,0.0,1.0,0.0
-2014.0,Burkina Faso,Sahel,Soum,3,0.0,3.0,0.0
-2014.0,Burkina Faso,Sahel,Yagha,0,0,0.0,0
-2014.0,Mali,Gao,Ansongo,10,0.0,10.0,0.0
-2014.0,Mali,Gao,Bourem,4,0.0,4.0,0.0
-2014.0,Mali,Gao,Gao,6,0.0,6.0,0.0
-2014.0,Mali,Gao,Menaka,5,0.0,5.0,0.0
-2014.0,Mali,Mopti,Bandiagara,2,0.0,2.0,0.0
-2014.0,Mali,Mopti,Bankass,1,0.0,1.0,0.0
-2014.0,Mali,Mopti,Djenne,5,1.0,5.0,1.0
-2014.0,Mali,Mopti,Douentza,13,0.0,13.0,0.0
-2014.0,Mali,Mopti,Koro,7,0.0,7.0,0.0
-2014.0,Mali,Mopti,Mopti,0,0,0.0,0
-2014.0,Mali,Mopti,Tenenkou,6,1.0,6.0,1.0
-2014.0,Mali,Mopti,Youwarou,1,0.0,1.0,0.0
-2014.0,Mali,Tombouctou,Dire,1,0.0,1.0,0.0
-2014.0,Mali,Tombouctou,Goundam,0,0,0.0,0
-2014.0,Mali,Tombouctou,Gourma-Rharous,4,1.0,4.0,1.0
-2014.0,Mali,Tombouctou,Niafunke,7,1.0,7.0,1.0
-2014.0,Mali,Tombouctou,Tombouctou,3,0.0,3.0,0.0
-2014.0,Niger,Tahoua,Tahoua,0,0,0.0,0
-2014.0,Niger,Tahoua,Tassara,0,0,0.0,0
-2014.0,Niger,Tahoua,Tillia,0,0,0.0,0
-2014.0,Niger,Tillaberi,Banibangou,0,0,0.0,0
-2014.0,Niger,Tillaberi,Filingue,0,0,0.0,0
-2014.0,Niger,Tillaberi,Kollo,0,0,0.0,0
-2014.0,Niger,Tillaberi,Ouallam,0,0,0.0,0
-2014.0,Niger,Tillaberi,Say,0,0,0.0,0
-2014.0,Niger,Tillaberi,Tera,0,0,0.0,0
-2014.0,Niger,Tillaberi,Tillaberi,0,0,0.0,0
-2015.0,Burkina Faso,Est,Komonjdjari,0,0,0.0,0
-2015.0,Burkina Faso,Nord,Loroum,0,0,0.0,0
-2015.0,Burkina Faso,Nord,Yatenga,9,0.0,9.0,0.0
-2015.0,Burkina Faso,Sahel,Oudalan,2,1.0,2.0,1.0
-2015.0,Burkina Faso,Sahel,Seno,1,0.0,1.0,0.0
-2015.0,Burkina Faso,Sahel,Soum,2,2.0,2.0,2.0
-2015.0,Burkina Faso,Sahel,Yagha,0,0,0.0,0
-2015.0,Mali,Gao,Ansongo,11,0.0,11.0,0.0
-2015.0,Mali,Gao,Bourem,2,0.0,2.0,0.0
-2015.0,Mali,Gao,Gao,12,3.0,12.0,3.0
-2015.0,Mali,Gao,Menaka,11,1.0,11.0,1.0
-2015.0,Mali,Mopti,Bandiagara,1,0.0,1.0,0.0
-2015.0,Mali,Mopti,Bankass,0,0,0.0,0
-2015.0,Mali,Mopti,Djenne,6,1.0,6.0,1.0
-2015.0,Mali,Mopti,Douentza,13,2.0,13.0,2.0
-2015.0,Mali,Mopti,Koro,15,7.0,15.0,7.0
-2015.0,Mali,Mopti,Mopti,9,2.0,9.0,2.0
-2015.0,Mali,Mopti,Tenenkou,9,0.0,9.0,0.0
-2015.0,Mali,Mopti,Youwarou,2,0.0,2.0,0.0
-2015.0,Mali,Tombouctou,Dire,0,0,0.0,0
-2015.0,Mali,Tombouctou,Goundam,1,1.0,1.0,1.0
-2015.0,Mali,Tombouctou,Gourma-Rharous,2,0.0,2.0,0.0
-2015.0,Mali,Tombouctou,Niafunke,1,0.0,1.0,0.0
-2015.0,Mali,Tombouctou,Tombouctou,4,0.0,4.0,0.0
-2015.0,Niger,Tahoua,Tahoua,0,0,0.0,0
-2015.0,Niger,Tahoua,Tassara,0,0,0.0,0
-2015.0,Niger,Tahoua,Tillia,0,0,0.0,0
-2015.0,Niger,Tillaberi,Banibangou,0,0,0.0,0
-2015.0,Niger,Tillaberi,Filingue,0,0,0.0,0
-2015.0,Niger,Tillaberi,Kollo,0,0,0.0,0
-2015.0,Niger,Tillaberi,Ouallam,0,0,0.0,0
-2015.0,Niger,Tillaberi,Say,0,0,0.0,0
-2015.0,Niger,Tillaberi,Tera,0,0,0.0,0
-2015.0,Niger,Tillaberi,Tillaberi,0,0,0.0,0
-2016.0,Burkina Faso,Est,Komonjdjari,0,0,0.0,0
-2016.0,Burkina Faso,Nord,Loroum,0,0,0.0,0
-2016.0,Burkina Faso,Nord,Yatenga,2,0.0,2.0,0.0
-2016.0,Burkina Faso,Sahel,Oudalan,4,13.0,4.0,13.0
-2016.0,Burkina Faso,Sahel,Seno,0,0,0.0,0
-2016.0,Burkina Faso,Sahel,Soum,13,19.0,13.0,19.0
-2016.0,Burkina Faso,Sahel,Yagha,0,0,0.0,0
-2016.0,Mali,Gao,Ansongo,10,1.0,10.0,1.0
-2016.0,Mali,Gao,Bourem,3,3.0,3.0,3.0
-2016.0,Mali,Gao,Gao,6,1.0,6.0,1.0
-2016.0,Mali,Gao,Menaka,13,0.0,13.0,0.0
-2016.0,Mali,Mopti,Bandiagara,1,0.0,1.0,0.0
-2016.0,Mali,Mopti,Bankass,0,0,0.0,0
-2016.0,Mali,Mopti,Djenne,3,0.0,3.0,0.0
-2016.0,Mali,Mopti,Douentza,10,8.0,10.0,8.0
-2016.0,Mali,Mopti,Koro,10,18.0,10.0,18.0
-2016.0,Mali,Mopti,Mopti,2,1.0,2.0,1.0
-2016.0,Mali,Mopti,Tenenkou,12,6.0,12.0,6.0
-2016.0,Mali,Mopti,Youwarou,1,0.0,1.0,0.0
-2016.0,Mali,Tombouctou,Dire,0,0,0.0,0
-2016.0,Mali,Tombouctou,Goundam,1,0.0,1.0,0.0
-2016.0,Mali,Tombouctou,Gourma-Rharous,3,1.0,3.0,1.0
-2016.0,Mali,Tombouctou,Niafunke,1,1.0,1.0,1.0
-2016.0,Mali,Tombouctou,Tombouctou,7,5.0,7.0,5.0
-2016.0,Niger,Tahoua,Tahoua,0,0,0.0,0
-2016.0,Niger,Tahoua,Tassara,0,0,0.0,0
-2016.0,Niger,Tahoua,Tillia,0,0,0.0,0
-2016.0,Niger,Tillaberi,Banibangou,0,0,0.0,0
-2016.0,Niger,Tillaberi,Filingue,0,0,0.0,0
-2016.0,Niger,Tillaberi,Kollo,0,0,0.0,0
-2016.0,Niger,Tillaberi,Ouallam,0,0,0.0,0
-2016.0,Niger,Tillaberi,Say,0,0,0.0,0
-2016.0,Niger,Tillaberi,Tera,0,0,0.0,0
-2016.0,Niger,Tillaberi,Tillaberi,0,0,0.0,0
-2017.0,Burkina Faso,Est,Komonjdjari,1,0.0,1.0,0.0
-2017.0,Burkina Faso,Nord,Loroum,4,3.0,4.0,3.0
-2017.0,Burkina Faso,Nord,Yatenga,3,3.0,3.0,3.0
-2017.0,Burkina Faso,Sahel,Oudalan,10,5.0,10.0,5.0
-2017.0,Burkina Faso,Sahel,Seno,1,1.0,1.0,1.0
-2017.0,Burkina Faso,Sahel,Soum,70,64.0,70.0,64.0
-2017.0,Burkina Faso,Sahel,Yagha,0,0,0.0,0
-2017.0,Mali,Gao,Ansongo,6,4.0,6.0,4.0
-2017.0,Mali,Gao,Bourem,4,5.0,4.0,5.0
-2017.0,Mali,Gao,Gao,13,8.0,13.0,8.0
-2017.0,Mali,Gao,Menaka,12,5.0,12.0,5.0
-2017.0,Mali,Mopti,Bandiagara,4,1.0,4.0,1.0
-2017.0,Mali,Mopti,Bankass,3,0.0,3.0,0.0
-2017.0,Mali,Mopti,Djenne,12,30.0,12.0,30.0
-2017.0,Mali,Mopti,Douentza,22,7.0,22.0,7.0
-2017.0,Mali,Mopti,Koro,28,11.0,28.0,11.0
-2017.0,Mali,Mopti,Mopti,16,10.0,16.0,10.0
-2017.0,Mali,Mopti,Tenenkou,5,0.0,5.0,0.0
-2017.0,Mali,Mopti,Youwarou,7,3.0,7.0,3.0
-2017.0,Mali,Tombouctou,Dire,1,0.0,1.0,0.0
-2017.0,Mali,Tombouctou,Goundam,4,0.0,4.0,0.0
-2017.0,Mali,Tombouctou,Gourma-Rharous,12,9.0,12.0,9.0
-2017.0,Mali,Tombouctou,Niafunke,4,2.0,4.0,2.0
-2017.0,Mali,Tombouctou,Tombouctou,11,8.0,11.0,8.0
-2017.0,Niger,Tahoua,Tahoua,0,0,0.0,0
-2017.0,Niger,Tahoua,Tassara,0,0,0.0,0
-2017.0,Niger,Tahoua,Tillia,0,0,0.0,0
-2017.0,Niger,Tillaberi,Banibangou,0,0,0.0,0
-2017.0,Niger,Tillaberi,Filingue,0,0,0.0,0
-2017.0,Niger,Tillaberi,Kollo,0,0,0.0,0
-2017.0,Niger,Tillaberi,Ouallam,0,0,0.0,0
-2017.0,Niger,Tillaberi,Say,0,0,0.0,0
-2017.0,Niger,Tillaberi,Tera,0,0,0.0,0
-2017.0,Niger,Tillaberi,Tillaberi,0,0,0.0,0
-2018.0,Burkina Faso,Est,Komonjdjari,16,6.0,16.0,6.0
-2018.0,Burkina Faso,Nord,Loroum,14,8.0,14.0,8.0
-2018.0,Burkina Faso,Nord,Yatenga,9,0.0,9.0,0.0
-2018.0,Burkina Faso,Sahel,Oudalan,26,10.0,26.0,10.0
-2018.0,Burkina Faso,Sahel,Seno,2,0.0,2.0,0.0
-2018.0,Burkina Faso,Sahel,Soum,95,161.0,95.0,161.0
-2018.0,Burkina Faso,Sahel,Yagha,6,2.0,6.0,2.0
-2018.0,Mali,Gao,Ansongo,30,34.0,30.0,34.0
-2018.0,Mali,Gao,Bourem,6,3.0,6.0,3.0
-2018.0,Mali,Gao,Gao,18,14.0,18.0,14.0
-2018.0,Mali,Gao,Menaka,32,18.0,32.0,18.0
-2018.0,Mali,Mopti,Bandiagara,5,10.0,5.0,10.0
-2018.0,Mali,Mopti,Bankass,35,39.0,35.0,39.0
-2018.0,Mali,Mopti,Djenne,13,6.0,13.0,6.0
-2018.0,Mali,Mopti,Douentza,52,22.0,52.0,22.0
-2018.0,Mali,Mopti,Koro,28,17.0,28.0,17.0
-2018.0,Mali,Mopti,Mopti,9,0.0,9.0,0.0
-2018.0,Mali,Mopti,Tenenkou,20,15.0,20.0,15.0
-2018.0,Mali,Mopti,Youwarou,4,2.0,4.0,2.0
-2018.0,Mali,Tombouctou,Dire,0,0,0.0,0
-2018.0,Mali,Tombouctou,Goundam,6,15.0,6.0,15.0
-2018.0,Mali,Tombouctou,Gourma-Rharous,17,3.0,17.0,3.0
-2018.0,Mali,Tombouctou,Niafunke,7,3.0,7.0,3.0
-2018.0,Mali,Tombouctou,Tombouctou,15,8.0,15.0,8.0
-2018.0,Niger,Tahoua,Tahoua,0,0,0.0,0
-2018.0,Niger,Tahoua,Tassara,0,0,0.0,0
-2018.0,Niger,Tahoua,Tillia,0,0,0.0,0
-2018.0,Niger,Tillaberi,Banibangou,0,0,0.0,0
-2018.0,Niger,Tillaberi,Filingue,0,0,0.0,0
-2018.0,Niger,Tillaberi,Kollo,0,0,0.0,0
-2018.0,Niger,Tillaberi,Ouallam,0,0,0.0,0
-2018.0,Niger,Tillaberi,Say,0,0,0.0,0
-2018.0,Niger,Tillaberi,Tera,0,0,0.0,0
-2018.0,Niger,Tillaberi,Tillaberi,0,0,0.0,0
-2019.0,Burkina Faso,Est,Komonjdjari,13,39.0,13.0,39.0
-2019.0,Burkina Faso,Nord,Loroum,32,156.0,32.0,156.0
-2019.0,Burkina Faso,Nord,Yatenga,41,127.0,41.0,127.0
-2019.0,Burkina Faso,Sahel,Oudalan,80,105.0,80.0,105.0
-2019.0,Burkina Faso,Sahel,Seno,18,73.0,18.0,73.0
-2019.0,Burkina Faso,Sahel,Soum,188,923.0,188.0,923.0
-2019.0,Burkina Faso,Sahel,Yagha,20,6.0,20.0,6.0
-2019.0,Mali,Gao,Ansongo,49,95.0,49.0,95.0
-2019.0,Mali,Gao,Bourem,12,41.0,12.0,41.0
-2019.0,Mali,Gao,Gao,42,124.0,42.0,124.0
-2019.0,Mali,Gao,Menaka,36,131.0,36.0,131.0
-2019.0,Mali,Mopti,Bandiagara,100,177.0,100.0,177.0
-2019.0,Mali,Mopti,Bankass,61,150.0,61.0,150.0
-2019.0,Mali,Mopti,Djenne,9,58.0,9.0,58.0
-2019.0,Mali,Mopti,Douentza,109,377.0,109.0,377.0
-2019.0,Mali,Mopti,Koro,141,392.0,141.0,392.0
-2019.0,Mali,Mopti,Mopti,33,95.0,33.0,95.0
-2019.0,Mali,Mopti,Tenenkou,13,7.0,13.0,7.0
-2019.0,Mali,Mopti,Youwarou,3,1.0,3.0,1.0
-2019.0,Mali,Tombouctou,Dire,7,6.0,7.0,6.0
-2019.0,Mali,Tombouctou,Goundam,17,21.0,17.0,21.0
-2019.0,Mali,Tombouctou,Gourma-Rharous,22,54.0,22.0,54.0
-2019.0,Mali,Tombouctou,Niafunke,6,17.0,6.0,17.0
-2019.0,Mali,Tombouctou,Tombouctou,34,39.0,34.0,39.0
-2019.0,Niger,Tahoua,Tahoua,10,17.0,10.0,17.0
-2019.0,Niger,Tahoua,Tassara,8,32.0,8.0,32.0
-2019.0,Niger,Tahoua,Tillia,2,0.0,2.0,0.0
-2019.0,Niger,Tillaberi,Banibangou,9,5.0,9.0,5.0
-2019.0,Niger,Tillaberi,Filingue,14,37.0,14.0,37.0
-2019.0,Niger,Tillaberi,Kollo,3,5.0,3.0,5.0
-2019.0,Niger,Tillaberi,Ouallam,24,39.0,24.0,39.0
-2019.0,Niger,Tillaberi,Say,27,105.0,27.0,105.0
-2019.0,Niger,Tillaberi,Tera,19,38.0,19.0,38.0
-2019.0,Niger,Tillaberi,Tillaberi,45,217.0,45.0,217.0
-2020.0,Burkina Faso,Est,Komonjdjari,13,18.0,22.285714285714285,30.857142857142854
-2020.0,Burkina Faso,Nord,Loroum,28,111.0,48.0,190.28571428571428
-2020.0,Burkina Faso,Nord,Yatenga,14,68.0,24.0,116.57142857142857
-2020.0,Burkina Faso,Sahel,Oudalan,75,393.0,128.57142857142856,673.7142857142857
-2020.0,Burkina Faso,Sahel,Seno,13,28.0,22.285714285714285,48.0
-2020.0,Burkina Faso,Sahel,Soum,79,457.0,135.42857142857142,783.4285714285713
-2020.0,Burkina Faso,Sahel,Yagha,27,171.0,46.285714285714285,293.1428571428571
-2020.0,Mali,Gao,Ansongo,49,163.0,84.0,279.4285714285714
-2020.0,Mali,Gao,Bourem,9,25.0,15.428571428571427,42.857142857142854
-2020.0,Mali,Gao,Gao,22,51.0,37.714285714285715,87.42857142857143
-2020.0,Mali,Gao,Menaka,18,51.0,30.857142857142854,87.42857142857143
-2020.0,Mali,Mopti,Bandiagara,59,221.0,101.14285714285714,378.85714285714283
-2020.0,Mali,Mopti,Bankass,29,153.0,49.71428571428571,262.2857142857143
-2020.0,Mali,Mopti,Djenne,9,17.0,15.428571428571427,29.142857142857142
-2020.0,Mali,Mopti,Douentza,58,198.0,99.42857142857142,339.4285714285714
-2020.0,Mali,Mopti,Koro,96,264.0,164.57142857142856,452.57142857142856
-2020.0,Mali,Mopti,Mopti,21,58.0,36.0,99.42857142857142
-2020.0,Mali,Mopti,Tenenkou,3,0.0,5.142857142857142,0.0
-2020.0,Mali,Mopti,Youwarou,4,9.0,6.857142857142857,15.428571428571427
-2020.0,Mali,Tombouctou,Dire,5,5.0,8.571428571428571,8.571428571428571
-2020.0,Mali,Tombouctou,Goundam,7,40.0,12.0,68.57142857142857
-2020.0,Mali,Tombouctou,Gourma-Rharous,21,114.0,36.0,195.42857142857142
-2020.0,Mali,Tombouctou,Niafunke,8,14.0,13.714285714285714,24.0
-2020.0,Mali,Tombouctou,Tombouctou,14,30.0,24.0,51.42857142857142
-2020.0,Niger,Tahoua,Tahoua,1,2.0,1.7142857142857142,3.4285714285714284
-2020.0,Niger,Tahoua,Tassara,1,0.0,1.7142857142857142,0.0
-2020.0,Niger,Tahoua,Tillia,11,28.0,18.857142857142858,48.0
-2020.0,Niger,Tillaberi,Banibangou,21,46.0,36.0,78.85714285714285
-2020.0,Niger,Tillaberi,Filingue,33,85.0,56.57142857142857,145.7142857142857
-2020.0,Niger,Tillaberi,Kollo,4,8.0,6.857142857142857,13.714285714285714
-2020.0,Niger,Tillaberi,Ouallam,33,143.0,56.57142857142857,245.14285714285714
-2020.0,Niger,Tillaberi,Say,39,138.0,66.85714285714285,236.57142857142856
-2020.0,Niger,Tillaberi,Tera,32,94.0,54.857142857142854,161.14285714285714
-2020.0,Niger,Tillaberi,Tillaberi,64,153.0,109.71428571428571,262.2857142857143
+2014,Burkina Faso,Est,Komonjdjari,0,0,0,0
+2014,Burkina Faso,Nord,Loroum,0,0,0,0
+2014,Burkina Faso,Nord,Yatenga,1,3,1,3
+2014,Burkina Faso,Sahel,Oudalan,0,0,0,0
+2014,Burkina Faso,Sahel,Seno,0,0,0,0
+2014,Burkina Faso,Sahel,Soum,0,0,0,0
+2014,Burkina Faso,Sahel,Yagha,0,0,0,0
+2014,Mali,Gao,Ansongo,4,9,4,9
+2014,Mali,Gao,Bourem,8,13,8,13
+2014,Mali,Gao,Gao,14,82,14,82
+2014,Mali,Gao,Menaka,4,7,4,7
+2014,Mali,Mopti,Bandiagara,0,0,0,0
+2014,Mali,Mopti,Bankass,0,0,0,0
+2014,Mali,Mopti,Djenne,0,0,0,0
+2014,Mali,Mopti,Douentza,1,1,1,1
+2014,Mali,Mopti,Koro,0,0,0,0
+2014,Mali,Mopti,Mopti,0,0,0,0
+2014,Mali,Mopti,Tenenkou,0,0,0,0
+2014,Mali,Mopti,Youwarou,0,0,0,0
+2014,Mali,Tombouctou,Dire,0,0,0,0
+2014,Mali,Tombouctou,Gourma-Rharous,0,0,0,0
+2014,Mali,Tombouctou,Niafunke,0,0,0,0
+2014,Niger,Tahoua,Tahoua,0,0,0,0
+2014,Niger,Tahoua,Tassara,0,0,0,0
+2014,Niger,Tahoua,Tillia,0,0,0,0
+2014,Niger,Tillaberi,Banibangou,1,2,1,2
+2014,Niger,Tillaberi,Filingue,0,0,0,0
+2014,Niger,Tillaberi,Kollo,0,0,0,0
+2014,Niger,Tillaberi,Ouallam,3,13,3,13
+2014,Niger,Tillaberi,Say,0,0,0,0
+2014,Niger,Tillaberi,Tera,0,0,0,0
+2014,Niger,Tillaberi,Tillaberi,0,0,0,0
+2015,Burkina Faso,Est,Komonjdjari,0,0,0,0
+2015,Burkina Faso,Nord,Loroum,0,0,0,0
+2015,Burkina Faso,Nord,Yatenga,4,0,4,0
+2015,Burkina Faso,Sahel,Oudalan,2,1,2,1
+2015,Burkina Faso,Sahel,Seno,1,0,1,0
+2015,Burkina Faso,Sahel,Soum,2,2,2,2
+2015,Burkina Faso,Sahel,Yagha,0,0,0,0
+2015,Mali,Gao,Ansongo,6,13,6,13
+2015,Mali,Gao,Bourem,8,22,8,22
+2015,Mali,Gao,Gao,16,39,16,39
+2015,Mali,Gao,Menaka,11,27,11,27
+2015,Mali,Mopti,Bandiagara,0,0,0,0
+2015,Mali,Mopti,Bankass,1,1,1,1
+2015,Mali,Mopti,Djenne,1,1,1,1
+2015,Mali,Mopti,Douentza,6,21,6,21
+2015,Mali,Mopti,Koro,1,4,1,4
+2015,Mali,Mopti,Mopti,3,19,3,19
+2015,Mali,Mopti,Tenenkou,10,31,10,31
+2015,Mali,Mopti,Youwarou,1,1,1,1
+2015,Mali,Tombouctou,Dire,2,4,2,4
+2015,Mali,Tombouctou,Gourma-Rharous,7,32,7,32
+2015,Mali,Tombouctou,Niafunke,2,19,2,19
+2015,Niger,Tahoua,Tahoua,0,0,0,0
+2015,Niger,Tahoua,Tassara,0,0,0,0
+2015,Niger,Tahoua,Tillia,0,0,0,0
+2015,Niger,Tillaberi,Banibangou,0,0,0,0
+2015,Niger,Tillaberi,Filingue,0,0,0,0
+2015,Niger,Tillaberi,Kollo,0,0,0,0
+2015,Niger,Tillaberi,Ouallam,0,0,0,0
+2015,Niger,Tillaberi,Say,0,0,0,0
+2015,Niger,Tillaberi,Tera,0,0,0,0
+2015,Niger,Tillaberi,Tillaberi,0,0,0,0
+2016,Burkina Faso,Est,Komonjdjari,0,0,0,0
+2016,Burkina Faso,Nord,Loroum,0,0,0,0
+2016,Burkina Faso,Nord,Yatenga,0,0,0,0
+2016,Burkina Faso,Sahel,Oudalan,4,13,4,13
+2016,Burkina Faso,Sahel,Seno,0,0,0,0
+2016,Burkina Faso,Sahel,Soum,11,19,11,19
+2016,Burkina Faso,Sahel,Yagha,0,0,0,0
+2016,Mali,Gao,Ansongo,2,2,2,2
+2016,Mali,Gao,Bourem,1,2,1,2
+2016,Mali,Gao,Gao,10,13,10,13
+2016,Mali,Gao,Menaka,7,16,7,16
+2016,Mali,Mopti,Bandiagara,1,0,1,0
+2016,Mali,Mopti,Bankass,0,0,0,0
+2016,Mali,Mopti,Djenne,3,15,3,15
+2016,Mali,Mopti,Douentza,20,58,20,58
+2016,Mali,Mopti,Koro,3,5,3,5
+2016,Mali,Mopti,Mopti,6,9,6,9
+2016,Mali,Mopti,Tenenkou,6,27,6,27
+2016,Mali,Mopti,Youwarou,0,0,0,0
+2016,Mali,Tombouctou,Dire,0,0,0,0
+2016,Mali,Tombouctou,Gourma-Rharous,8,9,8,9
+2016,Mali,Tombouctou,Niafunke,2,5,2,5
+2016,Niger,Tahoua,Tahoua,2,3,2,3
+2016,Niger,Tahoua,Tassara,1,22,1,22
+2016,Niger,Tahoua,Tillia,0,0,0,0
+2016,Niger,Tillaberi,Banibangou,1,7,1,7
+2016,Niger,Tillaberi,Filingue,0,0,0,0
+2016,Niger,Tillaberi,Kollo,0,0,0,0
+2016,Niger,Tillaberi,Ouallam,0,0,0,0
+2016,Niger,Tillaberi,Say,0,0,0,0
+2016,Niger,Tillaberi,Tera,2,3,2,3
+2016,Niger,Tillaberi,Tillaberi,2,5,2,5
+2017,Burkina Faso,Est,Komonjdjari,0,0,0,0
+2017,Burkina Faso,Nord,Loroum,4,3,4,3
+2017,Burkina Faso,Nord,Yatenga,2,3,2,3
+2017,Burkina Faso,Sahel,Oudalan,8,5,8,5
+2017,Burkina Faso,Sahel,Seno,1,1,1,1
+2017,Burkina Faso,Sahel,Soum,52,64,52,64
+2017,Burkina Faso,Sahel,Yagha,0,0,0,0
+2017,Mali,Gao,Ansongo,32,37,32,37
+2017,Mali,Gao,Bourem,13,18,13,18
+2017,Mali,Gao,Gao,29,96,29,96
+2017,Mali,Gao,Menaka,35,128,35,128
+2017,Mali,Mopti,Bandiagara,5,12,5,12
+2017,Mali,Mopti,Bankass,3,3,3,3
+2017,Mali,Mopti,Djenne,18,20,18,20
+2017,Mali,Mopti,Douentza,47,90,47,90
+2017,Mali,Mopti,Koro,17,95,17,95
+2017,Mali,Mopti,Mopti,9,22,9,22
+2017,Mali,Mopti,Tenenkou,22,50,22,50
+2017,Mali,Mopti,Youwarou,3,0,3,0
+2017,Mali,Tombouctou,Dire,2,7,2,7
+2017,Mali,Tombouctou,Gourma-Rharous,12,31,12,31
+2017,Mali,Tombouctou,Niafunke,10,15,10,15
+2017,Niger,Tahoua,Tahoua,0,0,0,0
+2017,Niger,Tahoua,Tassara,1,5,1,5
+2017,Niger,Tahoua,Tillia,0,0,0,0
+2017,Niger,Tillaberi,Banibangou,0,0,0,0
+2017,Niger,Tillaberi,Filingue,1,8,1,8
+2017,Niger,Tillaberi,Kollo,0,0,0,0
+2017,Niger,Tillaberi,Ouallam,2,24,2,24
+2017,Niger,Tillaberi,Say,0,0,0,0
+2017,Niger,Tillaberi,Tera,5,12,5,12
+2017,Niger,Tillaberi,Tillaberi,6,18,6,18
+2018,Burkina Faso,Est,Komonjdjari,7,6,7,6
+2018,Burkina Faso,Nord,Loroum,7,8,7,8
+2018,Burkina Faso,Nord,Yatenga,6,0,6,0
+2018,Burkina Faso,Sahel,Oudalan,20,10,20,10
+2018,Burkina Faso,Sahel,Seno,1,0,1,0
+2018,Burkina Faso,Sahel,Soum,82,161,82,161
+2018,Burkina Faso,Sahel,Yagha,3,2,3,2
+2018,Mali,Gao,Ansongo,46,72,46,72
+2018,Mali,Gao,Bourem,13,28,13,28
+2018,Mali,Gao,Gao,40,71,40,71
+2018,Mali,Gao,Menaka,56,384,56,384
+2018,Mali,Mopti,Bandiagara,7,14,7,14
+2018,Mali,Mopti,Bankass,20,67,20,67
+2018,Mali,Mopti,Djenne,32,153,32,153
+2018,Mali,Mopti,Douentza,73,157,73,157
+2018,Mali,Mopti,Koro,64,213,64,213
+2018,Mali,Mopti,Mopti,24,62,24,62
+2018,Mali,Mopti,Tenenkou,39,139,39,139
+2018,Mali,Mopti,Youwarou,7,49,7,49
+2018,Mali,Tombouctou,Dire,0,0,0,0
+2018,Mali,Tombouctou,Gourma-Rharous,26,50,26,50
+2018,Mali,Tombouctou,Niafunke,10,21,10,21
+2018,Niger,Tahoua,Tahoua,0,0,0,0
+2018,Niger,Tahoua,Tassara,0,0,0,0
+2018,Niger,Tahoua,Tillia,2,9,2,9
+2018,Niger,Tillaberi,Banibangou,0,0,0,0
+2018,Niger,Tillaberi,Filingue,10,72,10,72
+2018,Niger,Tillaberi,Kollo,0,0,0,0
+2018,Niger,Tillaberi,Ouallam,10,35,10,35
+2018,Niger,Tillaberi,Say,10,18,10,18
+2018,Niger,Tillaberi,Tera,4,3,4,3
+2018,Niger,Tillaberi,Tillaberi,16,42,16,42
+2019,Burkina Faso,Est,Komonjdjari,11,39,11,39
+2019,Burkina Faso,Nord,Loroum,31,156,31,156
+2019,Burkina Faso,Nord,Yatenga,27,127,27,127
+2019,Burkina Faso,Sahel,Oudalan,63,105,63,105
+2019,Burkina Faso,Sahel,Seno,14,73,14,73
+2019,Burkina Faso,Sahel,Soum,169,923,169,923
+2019,Burkina Faso,Sahel,Yagha,12,6,12,6
+2019,Mali,Gao,Ansongo,33,58,33,58
+2019,Mali,Gao,Bourem,11,5,11,5
+2019,Mali,Gao,Gao,27,45,27,45
+2019,Mali,Gao,Menaka,37,273,37,273
+2019,Mali,Mopti,Bandiagara,74,193,74,193
+2019,Mali,Mopti,Bankass,57,341,57,341
+2019,Mali,Mopti,Djenne,6,12,6,12
+2019,Mali,Mopti,Douentza,98,332,98,332
+2019,Mali,Mopti,Koro,104,264,104,264
+2019,Mali,Mopti,Mopti,18,64,18,64
+2019,Mali,Mopti,Tenenkou,18,83,18,83
+2019,Mali,Mopti,Youwarou,2,0,2,0
+2019,Mali,Tombouctou,Dire,6,4,6,4
+2019,Mali,Tombouctou,Gourma-Rharous,13,29,13,29
+2019,Mali,Tombouctou,Niafunke,3,0,3,0
+2019,Niger,Tahoua,Tahoua,0,0,0,0
+2019,Niger,Tahoua,Tassara,1,5,1,5
+2019,Niger,Tahoua,Tillia,2,17,2,17
+2019,Niger,Tillaberi,Banibangou,3,6,3,6
+2019,Niger,Tillaberi,Filingue,12,29,12,29
+2019,Niger,Tillaberi,Kollo,2,3,2,3
+2019,Niger,Tillaberi,Ouallam,15,41,15,41
+2019,Niger,Tillaberi,Say,22,15,22,15
+2019,Niger,Tillaberi,Tera,12,4,12,4
+2019,Niger,Tillaberi,Tillaberi,25,165,25,165
+2020,Burkina Faso,Est,Komonjdjari,10,18,17,31
+2020,Burkina Faso,Nord,Loroum,27,108,46,185
+2020,Burkina Faso,Nord,Yatenga,11,68,19,117
+2020,Burkina Faso,Sahel,Oudalan,67,393,115,674
+2020,Burkina Faso,Sahel,Seno,11,28,19,48
+2020,Burkina Faso,Sahel,Soum,69,457,118,783
+2020,Burkina Faso,Sahel,Yagha,22,171,38,293
+2020,Mali,Gao,Ansongo,56,155,96,266
+2020,Mali,Gao,Bourem,7,65,12,111
+2020,Mali,Gao,Gao,26,94,45,161
+2020,Mali,Gao,Menaka,16,19,27,33
+2020,Mali,Mopti,Bandiagara,64,260,110,446
+2020,Mali,Mopti,Bankass,36,207,62,355
+2020,Mali,Mopti,Djenne,7,30,12,51
+2020,Mali,Mopti,Douentza,70,249,120,427
+2020,Mali,Mopti,Koro,123,263,211,451
+2020,Mali,Mopti,Mopti,25,168,43,288
+2020,Mali,Mopti,Tenenkou,3,0,5,0
+2020,Mali,Mopti,Youwarou,6,48,10,82
+2020,Mali,Tombouctou,Dire,5,3,9,5
+2020,Mali,Tombouctou,Gourma-Rharous,25,143,43,245
+2020,Mali,Tombouctou,Niafunke,6,13,10,22
+2020,Niger,Tahoua,Tahoua,1,1,2,2
+2020,Niger,Tahoua,Tassara,0,0,0,0
+2020,Niger,Tahoua,Tillia,7,38,12,65
+2020,Niger,Tillaberi,Banibangou,15,234,26,401
+2020,Niger,Tillaberi,Filingue,11,93,19,159
+2020,Niger,Tillaberi,Kollo,1,0,2,0
+2020,Niger,Tillaberi,Ouallam,11,24,19,41
+2020,Niger,Tillaberi,Say,20,26,34,45
+2020,Niger,Tillaberi,Tera,9,13,15,22
+2020,Niger,Tillaberi,Tillaberi,36,172,62,295
