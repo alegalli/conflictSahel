@@ -3,6 +3,7 @@ import xlrd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+
 # Read CH data from excel
 ch = pd.read_excel('../data/Cadre Harmonise/cadre_harmonise.xlsx')
 
@@ -100,6 +101,7 @@ tillaberi = ch.loc[ch.adm2_name=='Tillaberi']
 tillaberi_la = ch.loc[ch.adm2_name=='Tillaberi_limitedaccess']
 tillaberi_commune = ch.loc[ch.adm2_name=='Tillaberi Commune']
 ayerou = ch.loc[ch.adm2_name=='Ayerou']
+gotheye = ch.loc[ch.adm2_name=='Gotheye']
 # NOTE: It MUST have the same index
 tillaberi_la.index -= 1
 tillaberi_commune.index -= 1
@@ -151,7 +153,7 @@ for year in range(2014,2021):
 
 # Select adm2_name to work with
 ch = ch[ch.adm2_name.isin(['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou',
-                           'Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou',
+                           'Dire','Gourma-Rharous','Niafunke', # At adm2 level not considered Goundam and Tombouctou in the study
                            'Ansongo','Bourem','Gao','Menaka',
                            'Komonjdjari',
                            'Loroum','Yatenga',
@@ -184,6 +186,10 @@ lean = lean[['adm0_name','adm1_name','adm2_name','population','phase_class','pha
 # phase35 density between the population in Lean Season: (phase35%, reference_year)
 lean['p35_density'] = lean['phase35'].div(lean['population'])
 #lean_graph = lean[lean.adm2_name=='Gao'].plot(x='reference_year',y='p35_density',figsize=(12,8))
+
+lean['population'] = lean['population'].astype('int32')
+lean['phase35'] = lean['phase35'].astype('int32')
+lean['phase_class'] = lean['phase_class'].astype('int32')
 
 
 
