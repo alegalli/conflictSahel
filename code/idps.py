@@ -3,7 +3,7 @@ import xlrd
 import numpy as np
 
 adm2 = ['Bandiagara','Bankass','Djenne','Douentza','Koro','Mopti','Tenenkou','Youwarou',
-        'Dire','Goundam','Gourma-Rharous','Niafunke','Tombouctou',
+        'Dire','Gourma-Rharous','Niafunke', # Goundam and Tombouctou were not considered in the Liptako-Gourma study as adm2
         'Ansongo','Bourem','Gao','Menaka']
 
 # The following data are useful to us
@@ -23,6 +23,8 @@ dec17.rename(columns={'Total No. of IDPs Ind.' : 'Total No# of IDPs Ind#'}, inpl
 dec18.rename(columns={'Total No. of IDPs Ind.' : 'Total No# of IDPs Ind#'}, inplace=True)
 dec19.rename(columns={'Total No. of IDPs Ind.' : 'Total No# of IDPs Ind#'}, inplace=True)
 
+
+#
 dec14 = dec14[['Snapshot Date','Admin 0','Admin 1','Admin 2','Total No# of IDPs Ind#']]
 dec14 = dec14[dec14['Admin 1'].isin(['Gao','Mopti','Tombouctou'])]
 dec14 = dec14.reset_index(drop=True)
@@ -158,6 +160,7 @@ dec15 = dec15.assign(date='2015-12-31')
 # Append it all from dec14
 idps_mali = dec14.append(dec15.append(dec16.append(dec17.append(dec18.append(dec19.append(apr20)))))).reset_index(drop=True)
 
+
 idps_mali['projected_idps'] = idps_mali['Total No# of IDPs Ind#']
 project20 = idps_mali[idps_mali['reference_year'].isin([2020])]
 project20.loc[:,'projected_idps'] *= 3
@@ -165,6 +168,18 @@ for a in adm2:
     idps_mali.loc[(idps_mali.reference_year==2020)&(idps_mali.adm2_name==a),'projected_idps'] = project20.loc[(project20.reference_year==2020)&(project20.adm2_name==a)]['projected_idps']
 
 idps_mali['diff_last_year'] = idps_mali.groupby('adm2_name')['projected_idps'].diff().fillna(0)
+
+
+# Clean usless columns
+idps_useful = idps_mali[['reference_year','adm0_name','adm1_name','adm2_name','projected_idps','diff_last_year']]
+
+# Cast int values as int
+idps_useful['projected_idps'] = idps_useful['projected_idps'].astype('object').astype('int32')
+idps_useful['diff_last_year'] = idps_useful['diff_last_year'].astype('object').astype('int32')
+idps_useful = idps_useful[idps_useful.adm2_name.isin(adm2)].reset_index(drop=True)
+
+
+
 
 # Difference per month deleted: opted per projected in current year (2020)
 """
@@ -177,4 +192,4 @@ for a in adm2:
 
 
 # Export in csv
-idps_mali.to_csv('../data/IDPs Data/idps_mali.csv',index=False)
+idps_useful.to_csv('../data/IDPs Data/idps_mali.csv',index=False)

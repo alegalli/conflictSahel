@@ -4,32 +4,47 @@ August 27, 2020:
 
 Food Prices:
 Burkina Faso - Food PricesCSV (3.9M)
-Updated: August 23, 2020
+August 23, 2020
+(Updated: February 21, 2021 (4.2M)) #not considered
 
 Mali - Food PricesCSV (6.4M)
-Updated: August 23, 2020
+August 23, 2020
+(Updated: February 21, 2021 (7.2M)) #not considered
 
 Niger - Food PricesCSV (5.9M)
-Updated: August 23, 2020
+August 23, 2020
+(Updated: February 21, 2021 (6.0M)) #not considered
 
 
 CH:
 cadre_harmonise.xlsxXLSX (1.6M)
-Updated: August 10, 2020
+August 10, 2020
+(Updated: December 11, 2020 (1.8M)) #not considered
 
 
 Conflict:
 Conflict Data for Burkina FasoCSV (1.2M)
-Updated: August 26, 2020
+August 26, 2020
+(Updated: February 3, 2021 (53.8K)) #not considered
 
 Conflict Data for MaliCSV (1.7M)
-Updated: August 26, 2020
+August 26, 2020
+(Updated: February 3, 2021 (455.4K)) #not considered
 
 Conflict Data for NigerCSV (600.2K)
-Updated: August 26, 2020
+August 26, 2020
+(Updated: February 3, 2021 (105.8K)) #not considered
+
+
+(Biomass:) #not considered
+Biomass_ADM_2.xlsxXLSX (360.8K)
+Updated: November 24, 2020
 
 
 IDPs:
+(New: Mali Baseline Assessment Round 68 (28.6K)) #not considered
+     Published date: 26 January 2021 Snapshot date:January 2021
+
 Mali — Baseline Assessment — Round 64
 Published date:29 May 2020 Snapshot date:April 2020
 
@@ -53,4 +68,3 @@ Published date:30 November 2015 Snapshot date:November 2015
 
 Mali - Baseline Assessment Round 12
 Published date:30 December 2014 Snapshot date:December 2014
-
