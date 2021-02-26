@@ -1,35 +1,33 @@
-adm0_name,adm1_name,adm2_name
-Burkina Faso,Est,Komonjdjari
-Burkina Faso,Nord,Loroum
-Burkina Faso,Nord,Yatenga
-Burkina Faso,Sahel,Oudalan
-Burkina Faso,Sahel,Seno
-Burkina Faso,Sahel,Soum
-Burkina Faso,Sahel,Yagha
-Mali,Gao,Ansongo
-Mali,Gao,Bourem
-Mali,Gao,Gao
-Mali,Gao,Menaka
-Mali,Mopti,Bandiagara
-Mali,Mopti,Bankass
-Mali,Mopti,Djenne
-Mali,Mopti,Douentza
-Mali,Mopti,Koro
-Mali,Mopti,Mopti
-Mali,Mopti,Tenenkou
-Mali,Mopti,Youwarou
-Mali,Tombouctou,Dire
-Mali,Tombouctou,Goundam
-Mali,Tombouctou,Gourma-Rharous
-Mali,Tombouctou,Niafunke
-Mali,Tombouctou,Tombouctou
-Niger,Tahoua,Tahoua
-Niger,Tahoua,Tassara
-Niger,Tahoua,Tillia
-Niger,Tillaberi,Banibangou
-Niger,Tillaberi,Filingue
-Niger,Tillaberi,Kollo
-Niger,Tillaberi,Ouallam
-Niger,Tillaberi,Say
-Niger,Tillaberi,Tera
-Niger,Tillaberi,Tillaberi
+adm0_name,adm1_name,adm2_name,area,population
+Burkina Faso,Est,Komonjdjari,5088.588437,105540
+Burkina Faso,Nord,Loroum,3699.84375,177109
+Burkina Faso,Nord,Yatenga,6807.1125,678703
+Burkina Faso,Sahel,Oudalan,10062.26688,251998
+Burkina Faso,Sahel,Seno,7008.368125,331150
+Burkina Faso,Sahel,Soum,12630.2125,440647
+Burkina Faso,Sahel,Yagha,6489.309375,203315
+Mali,Gao,Ansongo,23037.4025,157184
+Mali,Gao,Bourem,42654.755,138610
+Mali,Gao,Gao,34429.1475,285337
+Mali,Gao,Menaka,76744.76,64869
+Mali,Mopti,Bandiagara,7967.27625,373461
+Mali,Mopti,Bankass,6217.776875,315462
+Mali,Mopti,Djenne,4495.46875,248309
+Mali,Mopti,Douentza,23223.365,293836
+Mali,Mopti,Koro,10633.3725,431997
+Mali,Mopti,Mopti,7242.456875,439524
+Mali,Mopti,Tenenkou,11468.63125,194113
+Mali,Mopti,Youwarou,8009.15,229298
+Mali,Tombouctou,Dire,2405.831875,130659
+Mali,Tombouctou,Gourma-Rharous,42475.46,132293
+Mali,Tombouctou,Niafunke,8785.14,209035
+Niger,Tahoua,Tahoua,12269.856016,466127
+Niger,Tahoua,Tassara,40722.49375,180274
+Niger,Tahoua,Tillia,17873.395,41930
+Niger,Tillaberi,Banibangou,6549.830625,68524
+Niger,Tillaberi,Filingue,23998.076016,595059
+Niger,Tillaberi,Kollo,8915.9375,499408
+Niger,Tillaberi,Ouallam,14603.85,347682
+Niger,Tillaberi,Say,13760.84625,389966
+Niger,Tillaberi,Tera,10933.95391,452905
+Niger,Tillaberi,Tillaberi,12344.234063,560655
