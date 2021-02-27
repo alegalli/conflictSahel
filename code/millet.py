@@ -53,12 +53,18 @@ millet = pd.merge(millet,decade)
 millet['lg_decade_price'] = lg_decade
 
 
-millet['var_price'] = millet['actual_price']-millet['decade_price']
-millet['lg_var_price'] = millet['actual_price']-millet['lg_decade_price']
+#this is not the variance of the dataframe as known in statistic. I want to extract the mean prices difference between the actual year and the mean of the last decade
+#Is the absolute value needed or is it better to use an integer number as a result insted of a natual number?
+#We want the absolute value. Because we just want to understand if the price is changing and not if it is increased or decreased
+millet['diff_price'] = abs(millet['actual_price']-millet['decade_price'])
+millet['lg_diff_price'] = abs(millet['actual_price']-millet['lg_decade_price'])
 
 # Sort
 millet = millet.sort_values(['reference_year','adm0_name','adm1_name']).reset_index()
-millet = millet[['reference_year','adm0_name','adm1_name','actual_price','decade_price','lg_decade_price','var_price','lg_var_price']]
+millet = millet[['reference_year','adm0_name','adm1_name','actual_price','decade_price','lg_decade_price','diff_price','lg_diff_price']]
+
+
+
 
 
 # Export millet at adm1 level, with a simple merge each adm2 level which shares
