@@ -55,31 +55,42 @@ for index, row in food.iterrows():
                 millet = millet.append(pd.Series([row['reference_year'],row['adm0_name'],row['adm1_name'],adm2,row['actual_price'],row['decade_price'],row['lg_decade_price'],row['diff_price'],row['lg_diff_price']],index=millet.columns),ignore_index=True)
 
 
-# THE DIMENSIONS of FOOD CONFLICTS SECURITY
+# THE DIMENSIONS of FOOD CONFLICTS SECURITY #Should I normalize all these data? NOT FOR CORRELATION
 # Merge variables we are interested in
-tot = pd.DataFrame(columns=['reference_year','adm0_name','adm1_name','adm2_name','population','phase_class','phase35','p35_density','actual_price','decade_price','lg_decade_price','diff_price','lg_diff_price','conflicts','fatalities'])
-tot['reference_year'] = lean['reference_year']
+#tot = pd.DataFrame(columns=['reference_year','adm0_name','adm1_name','adm2_name','population','phase_class','phase35','p35_density','actual_price','decade_price','lg_decade_price','diff_price','lg_diff_price','conflicts','fatalities'])
+tot = pd.DataFrame()
+tot['reference_year'] = lean['reference_year']     # Key
 tot['adm0_name'] = lean['adm0_name']               # Key
 tot['adm1_name'] = lean['adm1_name']               # Key
 tot['adm2_name'] = lean['adm2_name']               # Key
-tot['population'] = lean['population']             # Key
-tot['phase_class'] = lean['phase_class'] #no
-tot['phase35'] = lean['phase35']         #no
-tot['p35_density'] = lean['p35_density']           # Evaluator
-tot['actual_price'] = millet['actual_price']       # Access Dimension
-tot['decade_price'] = millet['decade_price']       # Balanced prize for the region
-tot['lg_decade_price'] = millet['lg_decade_price']     #no
-tot['diff_price'] = millet['diff_price']           # Stability Dimension (valabs on this value? YES, see millet.py for explanation)
-tot['lg_diff_price'] = millet['lg_diff_price'] #no
-tot['conflicts'] = conf['projected_conflicts']     # fatalities/conflicts : Conflict Severity
-tot['fatalities'] = conf['projected_fatalities']   # Conflict Size
+tot['population'] = lean['population']
+#tot['phase_class'] = lean['phase_class'] #no
+tot['phase35'] = lean['phase35']
+tot['p35_density'] = lean['p35_density'].round(decimals=4)           # Percentage of People in Food Insecurity State
 
+tot['actual_price'] = millet['actual_price'].round(decimals=2)       # actual_price : Access Dimension
+                                                   # actual_price - last year : Price Growth NO
+                                                   # Price Growth Percentage NO
+tot['decade_price'] = millet['decade_price'].round(decimals=2)       # Average prize for the region
+#tot['lg_decade_price'] = millet['lg_decade_price']     #no
+tot['diff_price'] = millet['diff_price'].round(decimals=2)           # Stability Dimension (valabs on this value? YES, see millet.py for explanation)
+#tot['lg_diff_price'] = millet['lg_diff_price'] #no
+
+for i in conf.index:
+    if conf.loc[i,'projected_conflicts']==0:
+        conf.at[i,'projected_conflicts']=1
+
+tot['fatalities'] = conf['projected_fatalities']   # fatalities : Conflict Size
+tot['conflicts'] = conf['projected_conflicts']   # conflicts for visualization operations
+tot['severity'] = (conf['projected_fatalities'] / conf['projected_conflicts']).round(decimals=2) # fatalities/conflicts : Conflict Severity
+                                                   # fatalities/population : Conflict Density NO
+                                                   # fatalities - last year : Conflict Growth NO
 
 # Merge IDPs variables in Mali
 mali = tot[tot.adm0_name=='Mali'].reset_index(drop=True)
-mali['projected_idps'] = idps['projected_idps']
-mali['diff_last_year'] = idps['diff_last_year']
-mali
+mali['idps'] = idps['projected_idps'].astype('int32')    # idps : IDPs Size
+#mali['diff_last_year'] = idps['diff_last_year']    # idps - last year : IDPs Growth NO
+#mali                                              # idps/population : IDPs Density  NO
 
 
 
